@@ -26,7 +26,7 @@
         position: absolute;
       top: 8px;
       left: 16px;
-      font-size: 35px;
+      font-size: 50px;
       font-weight: bold;
       color: red;
     
@@ -42,35 +42,59 @@
     }
     .center-text{
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,  -50%);
+        top: 200px;
         color: white;
-        font-size: 40px;
+        font-size: 100px;
         font-weight: bold;
     }
     .watchandcancel{
-        position: absolute;
-        top: 50%;
-        right: 50%;
-        transform: translate(+50% , +50%);
-       font-size: 35px;
-       font-weight: bold;
+        display: inline-block;
+       position: absolute;
+       bottom: 600px;
+       padding: 20px;
+       margin: 20px;
        color: white;
-       margin: 10px;
+       font-size: 30px;
+       font-weight: bold;
        padding: 10px;
+       margin: 10px;
 
 
 
     }
     .createmembership{
-        position: absolute;
-        bottom:  50%;
-        right:50%;
-        transform: translate(+50%, +50%);
-        font-size: 15px;
-        color: white;
+     display: inline-block;
+     position: absolute;
+     bottom:600px;
+     color: white;
+     font-size: 13px;
+     vertical-align: bottom;
 
+
+
+        
+
+    }
+    .enteremail{
+        display: inline-block;
+        position: absolute;
+        color: white;
+        bottom: 500px;
+        padding: 10px;
+
+    }
+    .gstarted {
+        display: inline-block;
+        position: absolute;
+        bottom:400px;
+        background-color: red;
+        color: white;
+        
+    }
+    .enjoy{
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
     }
 </style>
 
@@ -80,17 +104,27 @@
             <div class="row">
                 <div class="bg-img and logo">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <a class="logo nav navbar-brand">NETFLEX</a>
+                    <a class="logo  navbar-brand">NETFLEX</a>
 
                     <button class="signin   btn-info">Sign In</button>
                     
                   
                     
                     <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
-                    <p class="center-text">Unlimted movies, tv shows, and  more.</p>
-                    <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
-                    <p class="createmembership">ready to watch? Enter your email to create or restart your membership</p> 
+                    <p class="center-text">Unlimted movies, TV shows, and  more.</p>
+                    <p class="watchandcancel">Watch anywhere. Cancel anytime.</p>
+                    <p class="createmembership">ready to watch? Enter your email to create or restart your membership</p>
+                
                 </div>
+                <div class="enter email">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <input  type="text"class="enteremail" placeholder=" Email address">
+                        <button type="submit" class="gstarted" required="Email is required">Get started</button>
+                    </div>
+                </div>
+                
+    
+               
                    
                     
 
@@ -99,6 +133,13 @@
         </div>
 
             </div>
-            
+            <hr>
+            <div class="tv">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="enjoy">Enjoy your tv</h1>
+                    <p>Watch on Smart Tvs , Playstation, Xbox , Chromecast, Apple TV, BlueRay players and more</p>
+                    <img src="img/tv.png" class="  tv float-end">
+                </div>
+            </div>
     </body>
 </html>
