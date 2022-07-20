@@ -16,6 +16,7 @@
     }
     body{
         background-color: black;
+        
     }
     
     .container {
@@ -113,14 +114,12 @@
         
     }
     hr{
-        width: 100%;
-        color: grey
+        width: 300%;
+        color: darkgray;
+        margin-left: 0;
         
     }
-    .entertain {
-        height:200px;
-        width: 400px;
-    }
+    
     .enjoy {
         font-size: 40px;
         font-weight: bold;
@@ -129,6 +128,59 @@
     .watch {
         color: white;
         font-size: 30px;
+    }
+    .tv {
+       display: inline-block;
+       position: relative;
+       height: 200px;
+       width: 400px;
+    
+
+      
+    }
+    .download {
+      position: relative;
+    }
+    .d-header {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .save {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        font-size: 30px;
+        text-align: center;
+
+
+    }
+    .w-e {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .stream {
+        font-size: 20px;
+
+    }
+    .k-header {
+        display: inline-block;
+        position: absolute;
+        font-size: 50px;
+        bottom: 130px;
+
+    }
+    .kids {
+        position: absolute;
+        display: inline-block;
+        padding: 70px;
+        font-size: 30px;
+    
+        
+
+
     }
     
 </style>
@@ -155,15 +207,41 @@
             <!--second section-->
             <section class="entertain">
                 <h2 class="enjoy">Enjoy on your TV</h2>
-                <p class="watch">Watch on Smart TVs, Playstation, Xboox, Chromecast, Apple TV, Blue-ray players, and more.</p>
+                <p class="watch">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players, and more.</p>
                <img src="img/tv.png" class="tv" alt="tv">
+               
+
 
             </section>
+            <hr>
+            <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                
+                <img src="img/downlod.jpg" class="download float-start">
+                <h2 class="d-header">Download your shows to watch offline</h2>
+                <p class="save">Save your favorite  easily and always have somthing to watch</p>
+             
+            </section>
+            <hr>
+            <section>
+                <h2 class="w-e">watch everywhere.</h2>
+                <p class="stream">Stream unlimited movies and TV shows on your phone tablet, laptop, and  TV.</p>
+            </section>
+            <hr>
+            <section>
+                <img src="img/kids.png">
+                <h2 class="k-header">Create profiles for kids.</h2>
+                <p class="kids">send kids on adventures with their favorite characters in a space made just for them-- free with your membership.</p>
+            </section>
+
+            
+            
 
           </form>
         </div>
       </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="js/validateemail.js"></script>
     </body>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/validate email.js"></script>
+   
 </html>
