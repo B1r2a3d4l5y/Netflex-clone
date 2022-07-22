@@ -83,7 +83,7 @@
      top: 500px;
      color: white;
      font-size: 20px;
-     margin: 3px;
+     padding : 5px;
 
     
      
@@ -97,7 +97,7 @@
         display: inline-block;
         position: absolute;
         color: white;
-        top: 600px;
+        top: 530px;
         padding: 10px;
         font-size: 40px;
         margin: 10px;
@@ -106,7 +106,7 @@
     .gstarted {
         display: inline-block;
         position: absolute;
-        top: 700px;
+        top: 630px;
         align-items: center;
         background-color: red;
         color: white;
@@ -166,21 +166,59 @@
 
     }
     .k-header {
-        display: inline-block;
-        position: absolute;
-        font-size: 50px;
-       bottom: 10px;
-       left: 5px;
+       display: inline-block;
+       position: absolute;
+       bottom: 400px;
+       right: 220px;
+       font-size: 50px;
+       font-weight: bold;
+       color: white;
+       
+
     }
     .kids {
-        position: absolute;
         display: inline-block;
-        bottom: 130px;
-        left: 500px;
-        font-size: 25px;
-        text-align: right;
-        padding: 3px;
-        margin: 3px;
+        position: absolute;
+        bottom: 300px;
+        left: 543px;
+        padding: 10px;
+        font-size: 30px;
+        color: white;
+    }
+    .f-asked {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+    }
+    .faq {
+        list-style-type: none;
+    }
+    .button-q {
+       height: 300%;
+       width: 300%;
+       background-color: beige;
+       list-style: none;
+
+    }
+    .icon {
+        display: inline-block;
+        position: absolute;
+        list-style: none;
+      left: 891px;
+        bottom: 40px;
+        size: 40px;
+        cursor: pointer;
+        color: black;
+        
+
+    }
+    .anwser1 {
+        display:none;
+        list-style: none;
+
+    }
+    
+      
         
         
         
@@ -203,7 +241,7 @@
         
 
 
-    }
+    
     
 </style>
 
@@ -260,10 +298,24 @@
             <hr>
             <!--sixth section-->
             <section class=" most_asked col-lg-6  col-md-6 col-sm-12 col-xs-12">
-                <h2 class="f-asked">Frequently Asked Questions</h2>
-          
+               <h1 class="f-asked">Frequently Asked Questions</h1>
+               <ul class="faq"  >
+                <li > <button class="button-q"  type="submit" id="questionBtn1">What is Netflex</button></li>
+                <li ><span class="icon" id="icon"><i class="bi bi-plus"></i></span></li>
+                <li><p class="anwser1" id="anwser1">Netflex is a streaming service that offers a wide varity of award-winning TV shows, movies, animie, documentries, and more on a thousand internet connected devices </p></li>
+
+
+               </ul>
+           
+             
+             
+
+
+            
+
 
             </section>
+            <hr>
 
             
             
@@ -274,6 +326,7 @@
 
       <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
       <script src="js/validateemail.js"></script>
+      <script src="js/click.js"></script>
     </body>
    
 </html>
