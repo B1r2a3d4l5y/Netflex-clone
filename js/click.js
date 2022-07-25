@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("#questionBtn1").click(function(){
+        $("#what").animate({opacity:1});
+        $("#what").toggle();
+    });
+});
+$("#costBtn").click(function(){
+    $("#cost_anwser").animate({opacity:1}).toggle();
+});
+$("#watchBtn").click(function(){
+    $("#where_to_watch").animate({opacity:1}).toggle();
+})
