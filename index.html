@@ -194,29 +194,65 @@
         list-style-type: none;
     }
     .button-q {
-       height: 300%;
-       width: 300%;
-       background-color: beige;
+        position: relative;
+       height: 100%;
+       width: 100%;
+       background-color: lightslategray;
        list-style: none;
+     
 
     }
-    .icon {
+   
+    
+    .what {
+        position: relative;
         display: inline-block;
-        position: absolute;
+        display: none;
         list-style: none;
-      left: 891px;
-        bottom: 40px;
-        size: 40px;
-        cursor: pointer;
-        color: black;
+        border: 3px solid lightslategrey;
+        background-color: lightslategrey;
+
+
+      
+    }
+    .cost_n {
+        position: relative;
+       height: 100%;
+       width: 100%;
+       background-color: lightslategray;
+       margin: 5px;
+    }
+    .cost_anwser {
+        position: relative;
+        display: none;
+        border: 3px solid lightslategray;
+        background-color: lightslategray;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .watchBtn {
+
+        position: relative;
+       height: 100%;
+       width: 100%;
+       background-color: lightslategray;
+       margin: 5px;
+    }
+    .where_to_watch {
+        position: relative;
+        display: none;
+        order: 3px solid lightslategray;
+        background-color: lightslategray;
+        text-align: center;
+        justify-content: center;
+    }
+    
         
 
-    }
-    .anwser1 {
-        display:none;
-        list-style: none;
-
-    }
+    
+  
+    
     
       
         
@@ -299,15 +335,30 @@
             <!--sixth section-->
             <section class=" most_asked col-lg-6  col-md-6 col-sm-12 col-xs-12">
                <h1 class="f-asked">Frequently Asked Questions</h1>
-               <ul class="faq"  >
-                <li > <button class="button-q"  type="submit" id="questionBtn1">What is Netflex</button></li>
-                <li ><span class="icon" id="icon"><i class="bi bi-plus"></i></span></li>
-                <li><p class="anwser1" id="anwser1">Netflex is a streaming service that offers a wide varity of award-winning TV shows, movies, animie, documentries, and more on a thousand internet connected devices </p></li>
-
-
-               </ul>
-           
+               <button type="button" class="button-q" id="questionBtn1">What is Netflex?</button>
              
+               
+             
+                <div class="what" id="what">
+                    Netflex is a streaming service that offers a wide varity of award-winning TV shows, movies, animie, documentries, and more on a thousand internet connected devices </p></li>
+
+                </div>
+               <button class="cost_n" type="button" id="costBtn">How much does Netflex cost ?</button>
+               <div class="cost_anwser" id="cost_anwser">
+                Watch Netflex on your smarthphone, tablet, Smart TV, laptop or streaming device, all for one fixed monthly fee. Plans range from R49 to R199 month. No extra costs, no contracts.
+
+               </div>
+               <button class="watchBtn" id="watchBtn" type="button">Where can I watch?</button>
+               <div class="where_to_watch" id="where_to_watch">
+                Watch anywhere, anytime. Signin with your Netflex account to watch instantly on the web at netflex.com from your personal computer or any internet_conected device that offers the Netflex app, including Smart Tvs, smartphones, tablets, straming media players and game consles.
+                You can also download your favorite shows with the iOS, Anroid or Windows 10 app. Use downloads to while you are on the go and without internet connection. Take Netflex with anywhere.
+               </div>
+
+
+               
+               
+              
+            
              
 
 
@@ -315,6 +366,7 @@
 
 
             </section>
+           
             <hr>
 
             
