@@ -113,7 +113,7 @@
         
     }
     hr{
-        width: 300%;
+        width: 500%;
         color: darkgray;
         margin-left: 0;
         
@@ -139,6 +139,7 @@
     }
     .download {
       position: relative;
+    
     }
     .d-header {
         display: inline-block;
@@ -146,17 +147,26 @@
         color: white;
         font-weight: bold;
         text-align: center;
+        
+         
+        
     }
     .save {
-        display: inline-block;
         position: absolute;
-        padding: 30px;
+        display: inline-block;
+        color: white;
         font-size: 30px;
+        margin: 20px;
         text-align: center;
 
-
     }
+    
+
+
+    
     .w-e {
+        position: relative;
+        display: inline-block;
         font-size: 50px;
         font-weight: bold;
         text-align: center;
@@ -165,17 +175,20 @@
     .stream {
         font-size: 20px;
         text-align: center;
-        padding: 20px;
-        bottom: 3px;
+        padding: 30px; 
+        top: 16px;
+        left: 8px;
         text-align: center;
+        font-weight: bold;
+        margin: 3px;
 
     }
     .k-header {
         
        display: inline-block;
        position: absolute;
-       bottom: 600px;
-       left: 600px;
+       bottom: 300px;
+       left: 300px;
        font-size: 60px;
        font-weight: bold;
        color: white;
@@ -189,8 +202,8 @@
         
         display: inline-block;
         position: absolute;
-        bottom: 500px;
-        left:  500px;
+        bottom: 700px;
+        left:  700px;
         padding: 10px;
         font-size: 30px;
         color: white;
@@ -380,9 +393,11 @@
     position: absolute;
   bottom: 8px;
   left: 16px;
-  padding: 70px;
+ text-align: center;
   text-decoration: none;
   color: grey;
+  padding: 90px;
+ 
 
 
 
@@ -396,13 +411,10 @@
     position: relative;
     bottom: 16px;
     left: 8px;
-    padding: 20px;
-
-    
     padding: 40px;
     color: grey;
     text-decoration: none;
-    margin: 20px;
+    margin: 30px;
     
 
    }
@@ -416,7 +428,6 @@
     bottom: 8px;
     left: 16px;
     padding: 50px;
-    margin: 5px;
     color: grey;
     text-decoration: none;
 
@@ -428,15 +439,55 @@
    .media-center {
     display: inline-block;
     position: absolute;
-    padding: 50px;
+    padding: 30px;
     color: grey;
     text-decoration: none;
+    margin: 10px;
 
    }
    .media-center:hover {
     text-decoration: underline;
     color: grey;
    }
+   .invest{
+    display: inline-block;
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    bottom: 8px;
+    left: 16px;
+   }
+   .invest:hover {
+    color: grey;
+    text-decoration: underline;
+   }
+   .jobs{
+    position: absolute;
+    display: inline-block;
+    bottom: 9px;
+    right: 18px;
+    color: grey;
+    text-decoration: none;
+   
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+   }
+   .jobs:hover{
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+   }
+   
+
   
    
         
@@ -478,18 +529,18 @@
         <div class="row">
           <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <!--first section-->
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                
                 <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
                 <a class="logo navbar-brand">NETFLEX</a>
                 <button class="signin">Sign In</button>
-                <p class="center-text">Unlimited movies, TV shows, and more</p>
+                <h1 class="center-text">Unlimited movies, TV shows, and more</h1>
                 <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
                 <p class="createmembership">Ready to watch? Enter your email to create or restart your membership</p>
                 <input type="email" class="enteremail " placeholder="Email address">
                 <button class="gstarted">Get Started</button>
 
-            </div>
+            </section>
             <hr>
             <!--second section-->
             <section class="entertain col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -511,7 +562,7 @@
             </section>
             <hr>
             <!--forth section-->
-            <section class="save">
+            <section >
                 <h1 class="w-e">watch everywhere.</h1>
                 <p class="stream">Stream unlimited movies and TV shows on your phone tablet, laptop, and  TV.</p>
                 
@@ -579,6 +630,8 @@
                <li><a class="account" href="#">Account</a></li>
                <li><a class="media-center" href="#">Media center</a></li>
                <li><a class="invest" href="#">Investor Relations</a></li>
+               <li><a class="jobs">Jobs</a></li>
+               <li><a class="redeem ">Redeem Gift cards</a></li>
                     </ul>
                 </nav>
                </footer>
