@@ -371,7 +371,7 @@
     }
    .tel_number {
     display: inline-block;
-    position: relative;
+    position: absolute;
     color: grey;
     text-decoration: none;
     text-align: center;
@@ -380,6 +380,12 @@
     bottom: 8px;
     left: 16px;
     font-size: 15px;
+    left: -40px;
+    overflow: hidden ;
+    white-space: nowrap;
+    padding: 450px;
+    margin: 99px;
+     
     
     
     
@@ -404,7 +410,7 @@
     left: 16px;
     text-decoration: none;
     padding: 30px;
-    margin-left:  -400px;
+    margin-left:  -200px;
     color: grey;
 
    }
@@ -429,10 +435,11 @@
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    padding:40px;
+    padding:45px;
     font-size: 16px;
-    left: 300px;
-    
+    left: 200px;
+    overflow: hidden;
+    white-space: nowrap;
 
     
     
@@ -453,7 +460,7 @@
    justify-content: center;
    text-decoration: none;
    top: 0;
-   left: +500px;
+   left:440px;
    font-size: 16px;
    font-size: 15px;
    padding: 50px;
@@ -488,7 +495,7 @@
     justify-content: center;
     text-decoration: none;
     margin: 50px;
-    right: -300px;
+    right: -500px;
     font-size: 15px;
 
 
@@ -521,9 +528,9 @@
     color: grey;
     text-align: center;
     text-decoration: none;
-    padding: 100px;
+    padding: 110px;
     font-size: 15px;
-    margin-left: -100px;
+    margin-left: -120px;
     font-size: 15px;
 
     
@@ -542,7 +549,7 @@
     right: 16px;
     padding: 80px;
     font-size: 15px;
-    left: +120px;
+    left: +160px;
     margin: 30px;
    }
    .jobs:hover{
@@ -560,7 +567,7 @@
     top: 8px;
     right: 16px;
     margin: 110px;
-    right: -140px;
+    right: -360px;
     text-decoration: none;
     font-size: 15px;
 
@@ -580,7 +587,7 @@
     top: 8px;
     right: 16px;
     margin: 100px;
-    right: -350px;
+    right: -550px;
     font-size: 15px;
 
 
@@ -592,15 +599,15 @@
    }
    .terms_of_use {
     display: inline-block;
-    position: relative;
-    bottom: 8px;
+    position: absolute;
+    top: 8px;
     right: 16px;
   text-align: center;
   justify-content: center;
   color: grey;
   text-decoration: none;
   padding: 200px;
-  margin-left: -360px;
+  margin-left: -300px;
 
   
  
@@ -615,14 +622,15 @@
    }
    .privacy{
     display: inline-block;
-    position: absolute;
+    position: relative;
     color: grey;
     text-align: center;
     justify-content: center;
-    padding: 200px;
+    padding: 100px;
     text-decoration: none;
-    left: 140px;
+    left: 130px;
     font-size: 15px;
+    margin: 35px;
    }
    .privacy:hover{
     color: grey;
@@ -637,7 +645,7 @@
     padding: 200px;
     top: 8px;
     right: 16px;
-    right: -220px;
+    right: -450px;
    }
    .cookies:hover{
     color: grey;
@@ -653,7 +661,7 @@
     margin: 200px;
     top: 8px;
     right: 16px;
-    right: -490px;
+    right: -700px;
 
    }
    .corporate:hover{
@@ -670,8 +678,10 @@
     right: 16px;
     text-decoration: none;
     margin: 300px;
-    left: -550px;
     color: grey;
+    overflow: hidden;
+    white-space: nowrap;
+    right: -45px;
    }
    .contact:hover{
     color:grey;
@@ -688,7 +698,7 @@
     right: 16px;
     padding: 300px;
     font-size: 15px;
-    left: 30px;
+    right: -300px;
     overflow: hidden;
     white-space: nowrap;
     
@@ -705,7 +715,7 @@
    justify-content: center;
    color: grey;
    padding: 300px;
-   left: 250px;
+   left: 150px;
    font-size: 15px;
    overflow: hidden;
    white-space: nowrap;
@@ -732,12 +742,12 @@
     right: 16px;
     font-size: 15px;
     text-decoration: none;
-    margin: 100px;
+    padding: 30px;
     color: grey;
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    right: -360px;
+    right: -500px;
     
    }
    .only_netflex:hover {
@@ -816,7 +826,7 @@
                 <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
                 <p class="createmembership">Ready to watch? Enter your email to create or restart your membership</p>
                 <input type="email" class="enteremail " placeholder="Email address">
-                <button class="gstarted">Get Started</button>
+                <button class="gstarted col-lg-6 col-md-6 col-sm-12 col-xs-12">Get Started</button>
 
             </section>
             <hr>
@@ -862,7 +872,7 @@
              
                
              
-                <div class="what " id="what">
+                <div class="what  col-lg-6 col-md-6 col-sm-12 col-xs-12" id="what">
                    Netflex is a streaming service that offers a wide varity of award-winning TV shows, movies, animie, documentries, and more on a thousand internet connected devices. 
 
                 </div>
@@ -901,7 +911,7 @@
                <footer  class="footer col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <!--footer menu-->
                 <nav class="footer_menu navbar">
-                    <ul class="nav">
+                    <ul class="nav col-lg-6 col-md-6 col-sm-12 col-xs-12">
                <li><h2 class="tel">Questions? Call</h2></li>
                <li><a class="tel_number" href="tel:0801000723">0 801-000-723</a></li>
                <li  ><a  class="Faq_link" href="#" ></a>FAQ</li>
@@ -912,7 +922,7 @@
                <li  class="jobs"><a>Jobs</a></li>
                <li><a class="redeem">Redeem Gift Cards</a></li>
                <li><a class="ways_to_watch_link">Ways to watch</a></li>
-               <li  class="terms_of_use"><a></a>Terms of use</li>
+               <li  class="terms_of_use"><a></a>Terms of Use</li>
                <li class="privacy"><a >Privacy</a></li>
                <li  class="cookies"><a>Cookies Prefences</a></li>
              <li ><a class="corporate" href="#">Corporate Infomation</a></li>
