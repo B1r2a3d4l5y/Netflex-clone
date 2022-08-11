@@ -153,9 +153,9 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-            margin-left:60px;
             font-size: 55px;
-        
+            overflow: hidden;
+            white-space: nowrap;
       
 
         
@@ -168,6 +168,7 @@
         padding: 80px;
         text-align: center;
         margin-right: -20px;
+        white-space: nowrap;
 
     }
     
@@ -177,13 +178,16 @@
     .w-e {
         position: relative;
         display: inline-block;
-        font-size: 50px;
+        font-size: 100px;
         font-weight: bold;
         text-align: center;
+        justify-content: center;
+        white-space: nowrap;
+        left: 200px;
         
     }
     .stream {
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         padding: 30px; 
         top: 16px;
@@ -191,6 +195,7 @@
         text-align: center;
         font-weight: bold;
         margin: 3px;
+        white-space: nowrap;
 
     }
     .k-header {
@@ -203,7 +208,7 @@
        text-align: center;
        justify-content: center;
        margin:-300px;
-       right:300px;
+       right:-100px;
        
        
 
@@ -215,7 +220,9 @@
         margin: -200px;
         font-size: 30px;
         color: white;
-        right: -650px;
+        left: 800px;
+      
+        
     
        
     }
@@ -353,7 +360,6 @@
         position: relative;
         color: white;
         background-color: red;
-        left: -100px;
         margin-top: 80px;
 
 
@@ -382,10 +388,10 @@
     top: 8px;
     left: 16px;
     font-size: 15px;
-    left: 120px;
+    left: 140px;
     overflow: hidden ;
     white-space: nowrap;
-    padding:-90px;
+    padding:-110px;
     margin: -5px;
 
      
@@ -412,8 +418,9 @@
     bottom: 8px;
     left: 16px;
     text-decoration: none;
-    padding: 20px;
     color: grey;
+    padding: 10px;
+
 
 
    }
@@ -440,7 +447,7 @@
     text-decoration: none;
     padding:45px;
     font-size: 16px;
-    left: 130px;
+    left: 140px;
     overflow: hidden;
     white-space: nowrap;
 
@@ -463,8 +470,7 @@
    justify-content: center;
    text-decoration: none;
    top: 0;
-   left:320px;
-   font-size: 16px;
+   left:300px;
    font-size: 15px;
    padding: 50px;
 
@@ -498,7 +504,7 @@
     justify-content: center;
     text-decoration: none;
     margin: 50px;
-    right: -520px;
+    right: -540px;
     font-size: 15px;
 
 
@@ -535,7 +541,7 @@
     font-size: 15px;
     overflow: hidden;
     white-space: nowrap;
-    left: -100px;
+    left: -170px;
 
     
 }
@@ -571,7 +577,7 @@
     top: 8px;
     right: 16px;
     margin: 110px;
-    right: -400px;
+    right: -460px;
     text-decoration: none;
     font-size: 15px;
 
@@ -591,7 +597,7 @@
     top: 8px;
     right: 16px;
     margin: 100px;
-    right : -590px;
+    right : -620px;
     font-size: 15px;
 
 
@@ -650,7 +656,7 @@ white-space: nowrap;
     padding: 200px;
     top: 8px;
     right: 16px;
-    right: -520px;
+    right: -560px;
    }
    .cookies:hover{
     color: grey;
@@ -818,12 +824,11 @@ white-space: nowrap;
 
     </head>
     <body>
-      <div class="container">
+      <div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="row">
           <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <!--first section-->
             <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-               
                 <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
                 <a class="logo navbar-brand">NETFLEX</a>
                 <button class="signin">Sign In</button>
