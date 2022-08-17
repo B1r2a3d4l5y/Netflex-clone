@@ -53,7 +53,7 @@
         min-height: 30px;
         width: 100px;
         background-color: red;
-        right: -400px;
+        right: -5px;
       
 
     }
@@ -101,7 +101,7 @@
         
 
     }
-    .enteremail{
+    .enter_email{
         display: inline-block;
         position: absolute;
         color: white;
@@ -111,6 +111,10 @@
         margin: 20px;
         left: 250px;
 
+    }
+    .error {
+        color: #D8000C;
+        background-color: #FFBABA;
     }
     .gstarted {
         display: inline-block;
@@ -490,7 +494,7 @@
    justify-content: center;
    text-decoration: none;
    top: 0;
-   left:440px;
+   left:450px;
    font-size: 15px;
    padding: 50px;
 
@@ -662,7 +666,7 @@ white-space: nowrap;
     text-decoration: none;
     font-size: 15px;
     margin: 30px;
-    left: 130px;
+    left: 140px;
    }
    .privacy:hover{
     color: grey;
@@ -847,17 +851,18 @@ white-space: nowrap;
     <body>
       <div class="container ">
         <div class="row ">
-          <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12" name="myForm" >
             <!--first section-->
             <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
                 <a class="logo navbar-brand">NETFLEX</a>
-                <button class="signin ">Sign In</button>
+                <button class="signin" type="submit"><a href="sign.html"></a>Sign In</button>
                 <h1 class="center-text">Unlimited movies, TV shows, and more</h1>
                 <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
                 <p class="createmembership">Ready to watch? Enter your email to create or restart your membership</p>
-                <input type="email" class="enteremail " placeholder="Email address">
-                <button class="gstarted col-lg-6 col-md-6 col-sm-12 col-xs-12">Get Started</button>
+                <input type="text" class="enter_email " id="email" name="email" placeholder="Email address" >
+                <span id="error"></span>
+                <button class="gstarted"id="get_started" type="submit">Get started</button>
 
             </section>
             <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
