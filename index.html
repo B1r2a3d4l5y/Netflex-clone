@@ -62,12 +62,20 @@
         }
         .readytowatch {
             display: inline-block;
-            position: relative;
-            top: -820px;
-            right: -630px;
+            position: absolute;
+            top: 650px;
+            left: 640px;
             color: white;
             font-size: 20px;
             white-space: nowrap;
+        }
+        .email {
+            display: inline-block;
+            position: relative;
+            top: -1000px;
+            left: 600px;
+            background-color: white;
+        
         }
         
 
@@ -78,15 +86,15 @@
         <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="section1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                
                     <a class="logo   navbar-brand">NETFLEX</a>
                      <button class="signin">Sign in</button>
                     <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-image">
                     <h1 class="center-text">Unlimited movies, TV shows , and more. </h1>
                     <p class="watchandcancel">Watch anywhere. Cancel anytime.</p>
                     <p class="readytowatch">Ready watch? Enter your  email   to create or restart your membership.</p>
-    
-                </div>
+                    <input type="email" class="email" placeholder="Email adress">
+
             </div>
 
         </form>
