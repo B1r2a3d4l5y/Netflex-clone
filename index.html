@@ -26,6 +26,9 @@
             font-weight: bold;
 
         }
+        .logo:hover {
+            color: red;
+        }
        
         .signin {
             display: inline-block;
@@ -99,12 +102,13 @@
         .button-icon {
             display: inline-block;
             position:relative;
-            top:-780px;
-            left: 1200px;
+            bottom:700px;
+            right: 700px;
             color: white;
             font-size: 35px;
         }
         .hr {
+            display: inline-block;
             position: relative;
             border: 3px solid grey;
             width: 1000%;
@@ -163,48 +167,24 @@
     </style>
 </head>
 <body>
-    <main class="main col-lg-6 col-md-6 col-sm-12 col-xs-12" id="main">
-        <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="container-fluid">
-                <div class="row">
-                    <!--section1-->
-                    <div class="section1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a class="logo navbar-brand">NETFLEX</a>
-                        <button class="signin">Sign In</button>
-                        <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-image">
-                        <h1 class="center-text">Unlimited movies, TV shows , and more.</h1>
-                        <p class="watchandcancel">Watch anywhere. Cancel anytime.</p>
-                        <p class="readytowatch">Ready to watch? Enter your  email to create or restart your membership.</p>
-                        <input type="email" class="email" placeholder="Email address">
-                        <button class="getstarted" >Get started</button>
-                        <span class="button-icon"><i class="bi bi-chevron-compact-right"></i></span>
+    <main class="main col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+        <form class="form">
+            <div class="section1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <a class="logo navbar-brand">NETFLEX </a>
+                <button class="signin">Sign In</button>
+                <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
+                <h1 class="center-text">Unlimted movies, TV shows and more</h1>
+                <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
+                <p class="readytowatch">Ready to watch? Enter your email or restart  your membership</p>
+                <input type="email" class="email" placeholder="Email address">
+                <button type="submit" class="getstarted">Get Started</button>
+                <span class="button-icon"><i class="bi bi-chevron-compact-right"></i></span>
 
 
-
-
-
-                    </div>
-                    
-                    <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="section2 col-lg-6 col-md-6 col-sm-12">
-                        <h1 class="enjoy">Enjoy on your TV</h1>
-                        <img src="img/tv.png" class="tv-img img-responsive">
-                        <p class="watch ">Watch on your Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-                    </div>
-                    <hr class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
-                    <div class="section3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <img src="img/downlod.jpg" class="download">
-
-
-
-
-                    </div>
-           
-           
-
+            </div>
         </form>
-       
     </main>
+  
     
 </body>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
