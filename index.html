@@ -198,6 +198,9 @@
 
         }
         .send {
+            
+
+            
             display: inline-block;
             position: relative;
             color: white;
@@ -206,11 +209,37 @@
             width: 500px;
             font-size: 30px;
         }
+        .faq_header {
+            display: inline-block;
+            position: relative;
+            color: white;
+            white-space: nowrap;
+            font-size: 70px;
+            font-weight: bold;
+        }
         .questionBtn1 {
             display: inline-block;
             position: relative;
-            width: 100%;
-            background-color: darkgrey;
+            width: 300%;
+            background-color: grey;
+            color: white;
+            margin: 20px;
+
+        }
+        .faq-icon {
+            
+            display: inline-block;
+            position: relative;
+            color: white;
+            top:-50px;
+            left: 690px;
+            
+
+            
+        }
+        .what {
+            display: none ;
+            opacity: 0;
         }
 
 
@@ -271,9 +300,12 @@
             </div>
             <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <!--faq-->
-            <div class="faq col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            
+            <div class=" faq   col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1 class="faq_header">Frequently Asked Questions</h1>
                 <button class="questionBtn1 " id="questionBtn1">What is Netflex</button>
-                <span class="button_icon"><i class="bi bi-plus"></i></span>
+                <span class="faq-icon" ><i class="bi bi-plus"></i></span>
+                <p class="what" id="what">Netflex is a streaming service that offers a wide variety of award-winning TV Shows, movies , anime,documentries, and more on  thousands of internet-connected devices</p>
 
             </div>
         </form>
