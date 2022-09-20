@@ -1,6 +1,10 @@
-$document.ready(function(){
+$(document).ready(function(){
     $("#questionBtn1").click(function(){
-        $("#what").animate({opacity:1, height:"+=100px"});
-    });
-    $("#what").toggle()
+        $("#what").animate({
+            height:"+=100px",
+            opacity:1
+        })
+        $("#what").show(1000).toggle()
+        
+    })
 })
