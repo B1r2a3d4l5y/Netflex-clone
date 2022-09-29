@@ -60,14 +60,15 @@ body {
     left: 700px;
     color: #fff;
     font-size: 20px;
+    white-space: nowrap;
 
 }
 .email {
     display: inline-block;
     position: relative;
-    top: -685px;
+    top: -660px;
     left: 570px;
-    width: 60%;
+    width: 500px;
     color: #fff;
 }
 .getstarted {
@@ -75,11 +76,13 @@ body {
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 690px;
-    left: 800px;
-    width: 30%;
-    border: red;
+    bottom: 655px;
+    left: 555px;
+    overflow: hidden;
+    border: none;
+    border: radius 3px; ;
     font-weight: bold;
+    width: 300px;
 
 }
 .button-icon {
@@ -92,5 +95,5 @@ body {
 }
 .hr {
     width: 1000%;
-    color: grey;
+border:  5px solid grey;
 }
