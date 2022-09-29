@@ -50,6 +50,8 @@ body {
     top: -700px;
     left: 790px;
     font-size:  30px; 
+    white-space: nowrap;
+
 
 
 }
@@ -66,34 +68,64 @@ body {
 .email {
     display: inline-block;
     position: relative;
+    box-sizing: border-box;
     top: -660px;
     left: 570px;
     width: 500px;
     color: #fff;
+
 }
 .getstarted {
     display: inline-block;
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 655px;
-    left: 555px;
-    overflow: hidden;
-    border: none;
-    border: radius 3px; ;
+    bottom: 693px;
+    left: 1070px;
     font-weight: bold;
-    width: 300px;
+    width: 350px;
+    border: hidden;
 
 }
 .button-icon {
     display: inline-block;
     position: relative;
     bottom: 690px;
-    left: 700px;
+    left: 930px;
     color: white;
     font-size:  20px; 
 }
 .hr {
     width: 1000%;
-border:  5px solid grey;
+border:  7px solid grey;
+}
+.enjoy {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.watch {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    overflow: hidden;
+    
+}
+.TV-img {
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: 900px;
+
+}
+.TV-video{
+    display: inline-block;
+    position: relative;
+    top: -590px;
+    left: 1000px;
+    width: 400px;
 }
