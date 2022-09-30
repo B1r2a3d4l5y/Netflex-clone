@@ -80,7 +80,7 @@ body {
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 693px;
+    bottom: 690px;
     left: 1070px;
     font-weight: bold;
     width: 350px;
@@ -96,8 +96,10 @@ body {
     font-size:  20px; 
 }
 .hr {
-    width: 1000%;
-border:  7px solid grey;
+    display: inline-block;
+    position: relative;
+    width: 4000%;
+border:  3px solid grey;
 }
 .enjoy {
     display: inline-block;
@@ -112,20 +114,26 @@ border:  7px solid grey;
     color: white;
     font-size: 30px;
     width: 800px;
-    overflow: hidden;
     
 }
 .TV-img {
     display: inline-block;
     position: relative;
-    bottom: 200px;
+    bottom: 90px;
     left: 900px;
+
 
 }
 .TV-video{
     display: inline-block;
     position: relative;
-    top: -590px;
-    left: 1000px;
-    width: 400px;
+    top: -470px;
+    left: 995px;
+    height: 250px;
+    width: 430px;
+    text-align: center;
+    object-fit : contain ;
+
 }
+
+
