@@ -82,9 +82,9 @@ body {
     background-color: red;
     bottom: 690px;
     left: 1070px;
-    font-weight: bold;
-    width: 350px;
-    border: hidden;
+    font-weight: bold; 
+    width: 400px;
+    border: none;
 
 }
 .button-icon {
@@ -127,13 +127,52 @@ border:  3px solid grey;
 .TV-video{
     display: inline-block;
     position: relative;
-    top: -470px;
-    left: 995px;
-    height: 250px;
-    width: 430px;
+    top: -464px;
+    left: 990px;
+    height: 255px;
+    width: auto;
     text-align: center;
-    object-fit : contain ;
+    object-fit : scale-down ;
+    z-index: -10;
 
+}
+.download-img {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+.download {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    width: 700px;
+    font-size: 50px;
+    top: -150px;
+    left: 200px;
+}
+.save {
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -140px;
+    left: 200px;
+    font-size: 25px;
+
+
+}
+.watch {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.stream {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    width: 500px;
 }
 
 
