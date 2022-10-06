@@ -83,8 +83,9 @@ body {
     bottom: 690px;
     left: 1070px;
     font-weight: bold; 
-    width: 400px;
-    border: none;
+    width: 200px;
+    border: 1px solid red;
+    font-weight: bold;
     
     
 
@@ -93,7 +94,7 @@ body {
     display: inline-block;
     position: relative;
     bottom: 690px;
-    left: 930px;
+    left: 1010px;
     color: white;
     font-size:  20px; 
 }
@@ -218,14 +219,14 @@ border:  3px solid grey;
     position: relative;
     background-color: grey;
     color: #fff;
-    width: 200px;
-    height: auto;
-    border: 1px solid grey;
+    width: 300px;
+    max-height: 50px;
+    
 }
 .faq-button-icon {
     display: inline-block;
     position: relative;
-    left: 80px;
+    left: 50px;
     color: white;
     font-size: 25px;
 }
@@ -233,6 +234,8 @@ border:  3px solid grey;
     display: none;
     opacity: 0 ;
     color: white;
+    
+    
 
     
 }
