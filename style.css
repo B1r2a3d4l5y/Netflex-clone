@@ -100,7 +100,7 @@ body {
 .hr {
     display: inline-block;
     position: relative;
-    width: 1000%;
+    width: 6000%;
 border:  3px solid grey;
 }
 .enjoy {
@@ -112,6 +112,7 @@ border:  3px solid grey;
     text-align: center;
     justify-content: center;
     left: 200px;
+    white-space: nowrap;
 }
 .watch {
     display: inline-block;
@@ -201,6 +202,7 @@ border:  3px solid grey;
     left: 700px;
     color: white;
     font-size: 20px;
+    color: #fff;
 
 }
 .faq {
@@ -208,6 +210,7 @@ border:  3px solid grey;
     position: relative;
     color:white;
     white-space: nowrap;
+    color: white;
 
 }
 .questionBtn1 {
