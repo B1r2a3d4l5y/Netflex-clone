@@ -219,11 +219,11 @@ border:  3px solid grey;
     position: relative;
     background-color: grey;
     color: #fff;
-    width: 300px;
-    border-color : grey;
+    width: 290px;
     padding: 10px;
     height: 50px;
     cursor: pointer;
+    border: none;
     
 }
 .faq-button-icon {
@@ -232,14 +232,14 @@ border:  3px solid grey;
     left: 70px;
     color: white;
     font-size: 25px;
-    box-shadow: grey;
+    
 }
 .what {
     display: none;
     opacity: 0 ;
     color: white;
-    border: 5px solid grey;
-    border-radius: 3px;
+    border: none;
+    background-color: grey;
     
 
     
