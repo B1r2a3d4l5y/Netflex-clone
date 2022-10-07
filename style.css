@@ -220,21 +220,26 @@ border:  3px solid grey;
     background-color: grey;
     color: #fff;
     width: 300px;
-    max-height: 50px;
+    border-color : grey;
+    padding: 10px;
+    height: 50px;
+    cursor: pointer;
     
 }
 .faq-button-icon {
     display: inline-block;
     position: relative;
-    left: 50px;
+    left: 70px;
     color: white;
     font-size: 25px;
+    box-shadow: grey;
 }
 .what {
     display: none;
     opacity: 0 ;
     color: white;
-    
+    border: 5px solid grey;
+    border-radius: 3px;
     
 
     
