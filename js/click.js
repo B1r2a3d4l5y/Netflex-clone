@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $("#questionBtn1 ").click(function(){
-        $(".faq-button-icon" ).toggle();
-        $("i ", this).toggle("bi bi-plus, bi bi-x")
+        // change icon  
+            $(".bi").toggleClass("bi-x bi-plus ").style = "bi-x font-size: 25px"
+       
         $("#what").animate({opacity:1}).toggle()
     })
 })
