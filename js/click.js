@@ -1,8 +1,7 @@
 $(document).ready(function(){
-    $("#questionBtn1").click(function(){
-        $("#what").animate({
-            opacity:1
-        })
-    });
-    $("#what").show()
+    $("#questionBtn1 ").click(function(){
+        $(".faq-button-icon" ).toggle();
+        $("i ", this).toggle("bi bi-plus, bi bi-x")
+        $("#what").animate({opacity:1}).toggle()
+    })
 })
