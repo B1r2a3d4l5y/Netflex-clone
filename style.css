@@ -101,7 +101,7 @@ body {
 .hr {
     display: inline-block;
     position: relative;
-    width: 6000%;
+    width: 7000%;
 border:  3px solid grey;
 }
 .enjoy {
@@ -219,30 +219,73 @@ border:  3px solid grey;
     position: relative;
     background-color: grey;
     color: #fff;
-    width: 290px;
-    padding: 10px;
-    height: 50px;
+    width: 100%;
     cursor: pointer;
-    border: none;
+    border: 1px outset grey;
+    outline-style: none;
+    border-color: grey;
+    
     
 }
 .faq-button-icon {
     display: inline-block;
     position: relative;
-    left: 70px;
+    left: 160px;
     color: white;
     font-size: 25px;
     
 }
+.button-text1 {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+
+
+
+
 .what {
     display: none;
     opacity: 0 ;
     color: white;
-    border: none;
     background-color: grey;
+    border: 1px outset grey;
+    outline-style: none;
+    border-style: grey ;
+
+
     
 
     
+}
+.questionBtn2 {
+    display: inline-block;
+    position: relative;
+    background-color: grey;
+    border: 2px outset grey;
+    margin: 60px;
+    width: 100%;
+    left: -100px;
+
+}
+.faq-button-icon-2 {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.cost {
+    display: none;
+    opacity: 0;
+    color: white;
+    border: 2px outset grey;
+
 }
 
 
