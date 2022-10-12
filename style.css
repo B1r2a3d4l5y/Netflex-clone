@@ -219,18 +219,21 @@ border:  3px solid grey;
     position: relative;
     background-color: grey;
     color: #fff;
-    width: 100%;
+    width: 500px;
     cursor: pointer;
     border: 1px outset grey;
     outline-style: none;
     border-color: grey;
+    font-weight: bold;
+    
     
     
 }
+
 .faq-button-icon {
     display: inline-block;
     position: relative;
-    left: 160px;
+    left: 165px;
     color: white;
     font-size: 25px;
     
@@ -255,6 +258,7 @@ border:  3px solid grey;
     border: 1px outset grey;
     outline-style: none;
     border-style: grey ;
+    width: 500px;
 
 
     
@@ -265,28 +269,40 @@ border:  3px solid grey;
     display: inline-block;
     position: relative;
     background-color: grey;
-    border: 2px outset grey;
+    border: 3px outset grey;
     margin: 60px;
-    width: 100%;
-    left: -100px;
+    width: 500px;
+    left: -50px;
+    color: white;
+    font-weight: bold;
+    outline-style: none;
+    cursor: pointer;
 
 }
+
 .faq-button-icon-2 {
     display: inline-block;
     position: relative;
-    left: 100px;
+    left: 120px;
     color: white;
     font-size: 25px;
     
 }
+.button-text-2 {
+    display: inline-block;
+    position: relative;
+}
+
 
 .cost {
     display: none;
     opacity: 0;
     color: white;
-    border: 2px outset grey;
+    border: 3px outset  grey;
+    background-color: grey;
+    border-style: grey;
+    outline-style: none;
+    width: 500px;
+
 
 }
-
-
-
