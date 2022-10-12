@@ -10,7 +10,22 @@ $(document).ready(function(){
         // change icon button2
         $(".icon-plus-2").toggleClass("bi-plus, bi-x");
         //show/toggle hidden text button2
-        $(".cost").animate({opacity:1}).toggle()
+        $(".cost").animate({opacity:1}).toggle();
+
+    });
+    // questionbutton 3
+    $("#questionBtn3").on('click', function(){
+        // change icon
+        $(".icon-plus-3").toggleClass("bi-plus, bi-x");
+        // toggle hidden text
+        $("#watch_anywhere").animate({opacity:1}).toggle();
+    });
+    // questionBtn4
+    $(".questionBtn4").on('click', function(){
+        // change icon
+        $(".icon-plus-4").toggleClass("bi-plus, bi-x");
+        // toggle text 
+        $("#cancel").animate({opacity:1}).toggle()
 
     })
 })
