@@ -25,7 +25,16 @@ $(document).ready(function(){
         // change icon
         $(".icon-plus-4").toggleClass("bi-plus, bi-x");
         // toggle text 
-        $("#cancel").animate({opacity:1}).toggle()
+        $("#cancel").animate({opacity:1}).toggle();
+
+    });
+    // questionBtn 5
+    $("#questionBtn5").on('click', function(){
+        // change icon for questionBtn5 
+        $(".icon-plus-5").toggleClass("bi-plus, bi-x");
+        // toggle hiidden text for questionBtn5
+        $("#what_can_i_watch").animate({opacity:1}).toggle()
 
     })
+
 })
