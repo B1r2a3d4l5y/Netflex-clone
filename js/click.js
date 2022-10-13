@@ -16,7 +16,7 @@ $(document).ready(function(){
     // questionbutton 3
     $("#questionBtn3").on('click', function(){
         // change icon
-        $(".icon-plus-3").toggleClass("bi-plus, bi-x");
+        $(".icon-plus-3").toggleClass("bi-x, bi-plus");
         // toggle hidden text
         $("#watch_anywhere").animate({opacity:1}).toggle();
     });
@@ -33,8 +33,15 @@ $(document).ready(function(){
         // change icon for questionBtn5 
         $(".icon-plus-5").toggleClass("bi-plus, bi-x");
         // toggle hiidden text for questionBtn5
-        $("#what_can_i_watch").animate({opacity:1}).toggle()
+        $("#what_can_i_watch").animate({opacity:1}).toggle();
 
+    });
+    // questionBtn 6 
+    $(".questionBtn5").on('click', function() {
+        // change icon
+        $(".icon-plus-6").toggleClass("bi-plus, bi-x");
+        //toggle hidden text
+        $("#good_for_kids").animate({opacity:1}).toggle()
     })
 
 })
