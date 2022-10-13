@@ -93,7 +93,7 @@ body {
 .button-icon {
     display: inline-block;
     position: relative;
-    bottom: 690px;
+    bottom: 689px;
     left: 1010px;
     color: white;
     font-size:  20px; 
@@ -288,23 +288,17 @@ border:  3px solid grey;
     font-size: 25px;
     
 }
-.button-text-2 {
-    display: inline-block;
-    position: relative;
-}
+
 
 
 .cost {
-    display: none;
-    opacity: 0;
-    color: white;
+    display: inline-block;
+    position: relative;
     border: 1px outset grey;
-    color: white;
+    color: #fff;
     background-color: grey;
     width: 500px;
-    
-
-
+    outline-style: none;
 }
 .questionBtn3 {
     display: inline-block;
@@ -335,34 +329,22 @@ border:  3px solid grey;
     background-color: grey;
     color: white;
     width: 500px;
-    margin: 30px;
-    left: -20px;
+    margin: 50px;
+    left: -25px;
     font-weight: bold;
-    border: 1px solid grey;
-}
-.watch_anywhere {
-    display: none;
-    opacity: 0;
-    color: white;
-    background-color: grey;
-    border: 1px solid grey;
-
-}
-.questionBtn4 {
-    display: inline-block;
-    position: relative;
-    color: white;
-    background-color: grey;
     border: 1px outset grey;
-    width: 500px;
 }
 .faq-button-icon-4 {
     display: inline-block;
     position: relative;
-    color: #fff;
-    left: 160px;
+    color: white;
+    left: 170px ;
     font-size: 25px;
 }
+
+
+
+
 .cancel {
     display: none;
     opacity: 0;
@@ -370,5 +352,35 @@ border:  3px solid grey;
     width: 500px;
     background-color: grey;
     color: white;
+}
+.questionBtn5 {
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: grey;
+    border: 1px outset grey;
+    width: 500px;
+    margin: 30px;
+    font-weight: bold;
+    cursor: pointer;
 
+}
+.faq-button-icon-5 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    left: 130px;
+    font-size: 25px;
+
+}
+.what_can_i_watch {
+    display: none;
+    opacity: 0;
+    color: white;
+    border: 1px outset grey;
+    background-color: grey;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
 }
