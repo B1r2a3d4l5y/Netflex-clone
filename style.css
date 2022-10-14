@@ -80,12 +80,11 @@ body {
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 690px;
+    bottom: 692px;
     left: 1070px;
     font-weight: bold; 
     width: 200px;
     border: 1px solid red;
-    font-weight: bold;
     
     
 
@@ -414,3 +413,44 @@ border:  4px solid grey;
 
 
 }
+.bottom-ready-to-watch {
+    display: inline-block;
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        white-space: nowrap;
+        margin: 20px;
+
+}
+.bottom-email {
+    display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        left: 50px;
+        width: 500px;
+        color: #fff;
+
+}
+.botom-getstarted {
+    display: inline-block;
+        position: relative;
+        color: #fff;
+        background-color: red;
+        bottom: 32px;
+        left: 550px;
+        font-weight: bold;
+        width: 200px;
+        border: 1px solid red;
+    
+
+}
+.bottom-button-icon {
+    display: inline-block;
+        position: relative;
+        bottom: 30px;
+        left:500px ;
+        color: white;
+        font-size: 20px;
+    }
+
+
