@@ -437,7 +437,7 @@ border:  4px solid grey;
         color: #fff;
         background-color: red;
         bottom: 32px;
-        left: 550px;
+        left: 551px;
         font-weight: bold;
         width: 200px;
         border: 1px solid red;
@@ -447,10 +447,189 @@ border:  4px solid grey;
 .bottom-button-icon {
     display: inline-block;
         position: relative;
-        bottom: 30px;
+        bottom: 29px;
         left:500px ;
         color: white;
         font-size: 20px;
     }
+    .questions {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        margin: 5px;
+    }
+    .tel-number {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: grey;
+        margin: 5px;
+    }
+    .tel-number:hover  {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .faq_link {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 90px;
+        left: -220px;
+    }
+    .faq_link:hover {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .help {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 90px;
+        right: 70px;
+        white-space: nowrap;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .help:hover{
+        color : grey;
+        text-decoration: underline;
+    }
+    .account{
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 80px;
+        left: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+     .account:hover {
+        color: grey;
+        text-decoration: underline;
+     }
+     .media {
+        display: inline-block;
+        position: relative;
+        top: 60px;
+        left: 590px;
+        text-decoration: none;
+        color: grey;
+
+     }
+     .media:hover {
+        color: grey;
+        text-decoration: underline;
+     }
+     .invest {
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        right: 110px;
+        color: grey;
+        text-decoration: none;
+     }
+     .invest:hover{
+        color: grey;
+        text-decoration: underline;
+
+     }
+     .jobs {
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        color: grey;
+        text-decoration: none;
+     }
+     .jobs:hover{
+        color: grey;
+        text-decoration: underline;
+        cursor: pointer;
+     }
+     .redeem {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 100px;
+        left: 120px;
+     }
+      .redeem:hover {
+        color: grey;
+        text-decoration: underline;
+      }
+    .ways_to-watch_link {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 70px;
+        left: 600px;
+        white-space: nowrap;
+        
+    }
+        .ways_to-watch_link:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+    .terms {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        top: 100px;
+        text-decoration: none;
+        right: 100px;
+    }
+    .terms:hover {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .privacy {
+
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: grey;
+        top: 100px;
+        left: 10px;
+    }
+    .privacy:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .cookie {
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        color: grey;
+        text-decoration: none;
+        left: 110px;
+    }
+    .cookie:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .corparate_info {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 70px;
+        left:560px;
+    }
+        .corparate_info:hover   {
+            color: grey;
+            text-decoration: underline;
+
+        }
+        
+
+
 
 
