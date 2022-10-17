@@ -478,8 +478,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 90px;
-        right:90px;
+        top: 65px;
+        right: 190px;
         white-space: nowrap;
     }
     .faq_link:hover {
@@ -492,7 +492,7 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 90px;
+        top: 70px;
         white-space: nowrap;
         text-align: center;
         justify-content: center;
@@ -507,8 +507,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 80px;
-        left: 70px;
+        top: 70px;
+        left: 90px;
         text-align: center;
         justify-content: center;
     }
@@ -519,7 +519,7 @@ border:  4px solid grey;
      .media {
         display: inline-block;
         position: relative;
-        top: 60px;
+        top: 30px;
         left: 610px;
         text-decoration: none;
         color: grey;
@@ -532,7 +532,7 @@ border:  4px solid grey;
      .invest {
         display: inline-block;
         position: relative;
-        top: 110px;
+        top: 80px;
         right: 110px;
         color: grey;
         text-decoration: none;
@@ -546,7 +546,7 @@ border:  4px solid grey;
         display: inline-block;
         position: relative;
         top: 90px;
-        left: 110px;
+        left: 60px;
         color: grey;
         text-decoration: none;
      }
@@ -560,8 +560,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 100px;
-        left: 130px;
+        top: 80px;
+        left: 140px;
      }
       .redeem:hover {
         color: grey;
@@ -572,8 +572,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 70px;
-        left: 600px;
+        top: 50px;
+        left: 605px;
         white-space: nowrap;
         
     }
@@ -601,7 +601,7 @@ border:  4px solid grey;
         text-decoration: none;
         color: grey;
         top: 100px;
-        left: 10px;
+        left: 80px;
     }
     .privacy:hover{
         text-decoration: underline;
@@ -613,7 +613,7 @@ border:  4px solid grey;
         top: 100px;
         color: grey;
         text-decoration: none;
-        left: 110px;
+        left: 150px;
     }
     .cookie:hover{
         text-decoration: underline;
