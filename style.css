@@ -452,6 +452,9 @@ border:  4px solid grey;
         color: white;
         font-size: 20px;
     }
+    .footer {
+        width: 300px;
+    }
     
     
     .questions {
@@ -492,7 +495,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 70px;
+        top: 30px;
+        left: 200px ;
         white-space: nowrap;
         text-align: center;
         justify-content: center;
@@ -507,8 +511,8 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 70px;
-        left: 90px;
+        top: 30px;
+        left: 400px;
         text-align: center;
         justify-content: center;
     }
@@ -533,7 +537,7 @@ border:  4px solid grey;
         display: inline-block;
         position: relative;
         top: 80px;
-        right: 110px;
+        right: 10px;
         color: grey;
         text-decoration: none;
      }
@@ -546,7 +550,7 @@ border:  4px solid grey;
         display: inline-block;
         position: relative;
         top: 90px;
-        left: 60px;
+        left: 100px;
         color: grey;
         text-decoration: none;
      }
@@ -561,7 +565,7 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 80px;
-        left: 140px;
+        left: 300px;
      }
       .redeem:hover {
         color: grey;
@@ -573,7 +577,7 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 50px;
-        left: 605px;
+        left: 750px;
         white-space: nowrap;
         
     }
@@ -585,7 +589,7 @@ border:  4px solid grey;
         display: inline-block;
         position: relative;
         color: grey;
-        top: 100px;
+        top: 120px;
         text-decoration: none;
         right: 100px;
     }
@@ -600,8 +604,8 @@ border:  4px solid grey;
         position: relative;
         text-decoration: none;
         color: grey;
-        top: 100px;
-        left: 80px;
+        top: 120px;
+        left: 20px;
     }
     .privacy:hover{
         text-decoration: underline;
@@ -613,7 +617,7 @@ border:  4px solid grey;
         top: 100px;
         color: grey;
         text-decoration: none;
-        left: 150px;
+        left: 450px;
     }
     .cookie:hover{
         text-decoration: underline;
@@ -624,13 +628,39 @@ border:  4px solid grey;
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 70px;
+        top: 95px;
         left:600px;
     }
         .corparate_info:hover   {
             color: grey;
             text-decoration: underline;
 
+        }
+        .contact {
+            display: inline-block;
+            position: relative;
+            top: 100px;
+            color: grey;
+            text-decoration: none;
+        }
+        .contact:hover {
+            color: grey;
+            text-decoration:underline;
+            cursor: pointer;
+        }
+        .speed {
+            display: inline-block;
+            position: relative;
+            color: grey;
+            text-decoration: none;
+            top: 100px;
+            left: 110px;
+
+        }
+        .speed:hover {
+            text-decoration: underline;
+            color: grey;
+            cursor: pointer;
         }
         
 
