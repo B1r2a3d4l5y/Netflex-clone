@@ -654,13 +654,47 @@ border:  4px solid grey;
             color: grey;
             text-decoration: none;
             top: 100px;
-            left: 110px;
+            left: 120px;
 
         }
         .speed:hover {
             text-decoration: underline;
             color: grey;
             cursor: pointer;
+        }
+        .legal{
+            display: inline-block;
+            position: relative;
+            color: grey;
+            top: 100px;
+            left: 320px;
+            text-decoration: none;
+        }
+        .legal:hover{
+            color: grey;
+            text-decoration: underline;
+            cursor: pointer;
+
+        }
+        .only_on_netflix {
+            display: inline-block;
+            position: relative;
+            top: 70px;
+            color: grey;
+            text-decoration: none;
+            left: 750px;
+        }
+        .only_on_netflix:hover {
+            text-decoration: underline;
+            color: grey;
+            cursor: pointer;
+        }
+        .netflix_sa{
+            display: inline-block;
+            position: relative;
+            color: grey;
+            top: 120px;
+            right: 130px;
         }
         
 
