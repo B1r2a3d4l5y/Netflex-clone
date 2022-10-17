@@ -452,6 +452,8 @@ border:  4px solid grey;
         color: white;
         font-size: 20px;
     }
+    
+    
     .questions {
         display: inline-block;
         position: relative;
@@ -464,6 +466,7 @@ border:  4px solid grey;
         text-decoration: none;
         color: grey;
         margin: 5px;
+        white-space: nowrap;
     }
     .tel-number:hover  {
         color: grey;
@@ -476,7 +479,8 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 90px;
-        left: -220px;
+        right:90px;
+        white-space: nowrap;
     }
     .faq_link:hover {
         color: grey;
@@ -489,7 +493,6 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 90px;
-        right: 70px;
         white-space: nowrap;
         text-align: center;
         justify-content: center;
@@ -505,7 +508,7 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 80px;
-        left: 50px;
+        left: 70px;
         text-align: center;
         justify-content: center;
     }
@@ -517,7 +520,7 @@ border:  4px solid grey;
         display: inline-block;
         position: relative;
         top: 60px;
-        left: 590px;
+        left: 610px;
         text-decoration: none;
         color: grey;
 
@@ -529,7 +532,7 @@ border:  4px solid grey;
      .invest {
         display: inline-block;
         position: relative;
-        top: 100px;
+        top: 110px;
         right: 110px;
         color: grey;
         text-decoration: none;
@@ -542,7 +545,8 @@ border:  4px solid grey;
      .jobs {
         display: inline-block;
         position: relative;
-        top: 100px;
+        top: 90px;
+        left: 110px;
         color: grey;
         text-decoration: none;
      }
@@ -557,7 +561,7 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 100px;
-        left: 120px;
+        left: 130px;
      }
       .redeem:hover {
         color: grey;
@@ -621,7 +625,7 @@ border:  4px solid grey;
         color: grey;
         text-decoration: none;
         top: 70px;
-        left:560px;
+        left:600px;
     }
         .corparate_info:hover   {
             color: grey;
