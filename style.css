@@ -1,4 +1,4 @@
-::before ::after {
+* {
     margin: 0;
     padding: 0;
 }
@@ -449,7 +449,7 @@ body {
 .bottom-button-icon {
     display: inline-block;
         position: relative;
-        bottom: 29px;
+        bottom: 30px;
         left:500px ;
         color: white;
         font-size: 20px;
