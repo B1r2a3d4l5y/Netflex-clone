@@ -37,7 +37,7 @@ $(document).ready(function(){
 
     });
     // questionBtn 6 
-    $(".questionBtn5").on('click', function() {
+    $(".questionBtn6").on('click', function() {
         // change icon
         $(".icon-plus-6").toggleClass("bi-plus, bi-x");
         //toggle hidden text
