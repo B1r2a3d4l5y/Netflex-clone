@@ -100,9 +100,9 @@ body {
 }
 .hr {
     display: inline-block;
-    position: relative;
-    width: 9000%;
-    border:  4px solid grey;
+    position: relative ;
+    width: 90000000px;
+    border: 4px solid grey;
 }
 .enjoy {
     display: inline-block;
@@ -126,7 +126,7 @@ body {
 .TV-img {
     display: inline-block;
     position: relative;
-    top: -190px;
+    top: -165px;
     left: 900px;
 
 
