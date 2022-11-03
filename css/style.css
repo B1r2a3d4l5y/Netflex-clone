@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+
+}
+.logo {
+    display: inline-block;
+    position: absolute;
+    color: red;
+    font-size: 55px;
+    left: 50px;
+    font-weight: bold;
+    
+}
+.logo:hover {
+    color: red;
+}
+.signin{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: red ;
+    border: none;
+    border-radius: 10px; ;
+    right:  -180px;
+    margin: 50px;
+    width: 100px
+}
+.center-text {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    top: -700px;
+    right: -590px;
+    font-size: 70px ;
+    width: 800px;
+
+
+}
+.watchandcancel {
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -700px;
+    left: 790px;
+    font-size:  30px; 
+    white-space: nowrap;
+
+
+
+}
+.readytowatch {
+    display: inline-block;
+    position: relative;
+    top: -685px;
+    left: 700px;
+    color: #fff;
+    font-size: 20px;
+    white-space: nowrap;
+
+}
+.email {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    top: -660px;
+    left: 570px;
+    width: 500px;
+    color: #fff;
+
+}
+
+.getstarted {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: red;
+    bottom: 692px;
+    left: 1070px;
+    font-weight: bold; 
+    width: 200px;
+    border: 1px solid red;
+    
+    
+
+}
+.button-icon {
+    display: inline-block;
+    position: relative;
+    bottom: 689px;
+    left: 1010px;
+    color: white;
+    font-size:  20px; 
+}
+.hr {
+    display: inline-block;
+    position: relative ;
+    width: 90000000px;
+    border: 4px solid grey;
+}
+.enjoy {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    left: 200px;
+    white-space: nowrap;
+}
+.watch {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    
+}
+.TV-img {
+    display: inline-block;
+    position: relative;
+    top: -190px;
+    left: 900px;
+
+
+}
+.TV-video{
+    display: inline-block;
+    position: relative;
+    top: -550px;
+    left: 990px;
+    height: 255px;
+    width: auto;
+    text-align: center;
+    object-fit : scale-down ;
+    z-index: -10;
+
+}
+.download-img {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+.download {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    width: 700px;
+    font-size: 50px;
+    top: -150px;
+    left: 200px;
+}
+.save {
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -140px;
+    left: 200px;
+    font-size: 25px;
+
+
+}
+.watch {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+.stream {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    left: 250px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+.create_profile {
+    display: inline-block;
+    position: relative;
+    top: -250px;
+    left: 700px;
+    color: white;
+    font-size: 50px;
+    width: 500px;
+    font-weight: bold;
+}
+.kids {
+    display: inline-block;
+    position: relative;
+    top: -250px;
+    left: 700px;
+    color: white;
+    font-size: 20px;
+    color: #fff;
+
+}
+.faq {
+    display: inline-block;
+    position: relative;
+    color:white;
+    white-space: nowrap;
+    color: white;
+
+}
+.questionBtn1 {
+    display: inline-block;
+    position: relative;
+    background-color: grey;
+    color: #fff;
+    width: 500px;
+    cursor: pointer;
+    border: 1px outset grey;
+    outline-style: none;
+    border-color: grey;
+    font-weight: bold;
+    margin: 5px;
+    
+    
+    
+}
+
+.faq-button-icon {
+    display: inline-block;
+    position: relative;
+    left: 175px;
+    color: white;
+    font-size: 25px;
+    
+}
+.button-text1 {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+.what {
+    display: none;
+    opacity: 0 ;
+    color: white;
+    background-color: grey;
+    border: 1px outset grey;
+    outline-style: none;
+    border-style: grey ;
+    width: 500px;
+
+
+    
+
+    
+}
+.questionBtn2 {
+    display: inline-block;
+        position: relative;
+        border: 1px outset grey;
+        width: 500px;
+        background-color: grey;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 3px;
+
+}
+
+.faq-button-icon-2 {
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+
+.cost {
+    display: none;
+    border: 1px outset grey;
+    color: #fff;
+    background-color: grey;
+    width: 500px;
+    outline-style: none;
+}
+.questionBtn3 {
+    display: inline-block;
+    position: relative;
+    border: 1px outset grey;
+    width: 500px;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.faq-button-icon-3 {
+    display: inline-block;
+    position: relative;
+    left: 160px;
+    font-size: 25px;
+    color: white;
+}
+.watch_anywhere {
+    display: none;
+    opacity: 0;
+    width: 500px;
+    border: 1px outset grey;
+    color: white;
+    background-color: grey;
+}
+.questionBtn4 {
+    display: inline-block;
+        position: relative;
+        border: 1px outset grey;
+        width: 500px;
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 3px;
+        
+}
+.faq-button-icon-4 {
+    display: inline-block;
+    position: relative;
+    color: white;
+    left: 170px ;
+    font-size: 25px;
+}
+
+
+
+
+.cancel {
+    display: none;
+    position: relative;
+    opacity: 0;
+    border: 1px outset grey;
+    background-color: grey;
+    width: 500px;
+    height: 100px;
+    color: white;
+}
+.questionBtn5 {
+    display: inline-block;
+        position: relative;
+        border: 1px outset grey;
+        width: 500px;
+        background-color: grey;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 3px;
+
+}
+.faq-button-icon-5 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    left: 130px;
+    font-size: 25px;
+
+}
+.what_can_i_watch {
+    display: none;
+    position: relative;
+    opacity: 0;
+    color: white;
+    border: 1px outset grey;
+    background-color: grey;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.questionBtn6{
+    display: inline-block;
+    position: relative;
+    border: 1px outset grey;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    width: 500px;
+}
+.faq-button-icon-6 {
+    display: inline-block;
+    position: relative;
+    color: white;
+    left: 140px;
+    font-size: 25px;
+}
+.good_for_kids {
+    display: none;
+    opacity: 0;
+    color: white;
+    border: 1px outset grey;
+    background-color: grey;
+    width: 500px;
+    margin: 5px;
+
+
+
+}
+.bottom-ready-to-watch {
+    display: inline-block;
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        white-space: nowrap;
+        margin: 20px;
+
+}
+.bottom-email {
+    display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        left: 50px;
+        width: 500px;
+        color: #fff;
+
+}
+.botom-getstarted {
+    display: inline-block;
+        position: relative;
+        color: #fff;
+        background-color: red;
+        bottom: 32px;
+        left: 551px;
+        font-weight: bold;
+        width: 200px;
+        border: 1px solid red;
+    
+
+}
+.bottom-button-icon {
+    display: inline-block;
+        position: relative;
+        bottom: 30px;
+        left:500px ;
+        color: white;
+        font-size: 20px;
+    }
+    .footer {
+        width: 300px;
+    }
+    
+    
+    .questions {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        margin: 5px;
+    }
+    .tel-number {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: grey;
+        margin: 5px;
+        white-space: nowrap;
+    }
+    .tel-number:hover  {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .faq_link {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 80px;
+        right: 190px;
+        white-space: nowrap;
+    }
+    .faq_link:hover {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .help {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 40px;
+        left: 200px ;
+        white-space: nowrap;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .help:hover{
+        color : grey;
+        text-decoration: underline;
+    }
+    .account{
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 40px;
+        left: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+     .account:hover {
+        color: grey;
+        text-decoration: underline;
+     }
+     .media {
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        left: 610px;
+        text-decoration: none;
+        color: grey;
+
+     }
+     .media:hover {
+        color: grey;
+        text-decoration: underline;
+     }
+     .invest {
+        display: inline-block;
+        position: relative;
+        top: 80px;
+        right: 15px;
+        color: grey;
+        text-decoration: none;
+   
+
+     }
+     .invest:hover {
+        color: grey;
+        text-decoration: underline;
+     }
+     .jobs {
+        display: inline-block;
+        position: relative;
+        top: 90px;
+        left: 100px;
+        color: grey;
+        text-decoration: none;
+     }
+     .jobs:hover{
+        color: grey;
+        text-decoration: underline;
+        cursor: pointer;
+     }
+     .redeem {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 80px;
+        left: 300px;
+     }
+      .redeem:hover {
+        color: grey;
+        text-decoration: underline;
+      }
+    .ways_to-watch_link {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 50px;
+        left: 750px;
+        white-space: nowrap;
+        
+    }
+        .ways_to-watch_link:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+    .terms {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        top: 120px;
+        text-decoration: none;
+        right: 100px;
+    }
+    .terms:hover {
+        color: grey;
+        text-decoration: underline;
+
+    }
+    .privacy {
+
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: grey;
+        top: 120px;
+        left: 20px;
+    }
+    .privacy:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .cookie {
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        color: grey;
+        text-decoration: none;
+        left: 450px;
+    }
+    .cookie:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .corparate_info {
+        display: inline-block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        top: 95px;
+        left:600px;
+    }
+        .corparate_info:hover   {
+            color: grey;
+            text-decoration: underline;
+
+        }
+        .contact {
+            display: inline-block;
+            position: relative;
+            top: 100px;
+            color: grey;
+            text-decoration: none;
+        }
+        .contact:hover {
+            color: grey;
+            text-decoration:underline;
+            cursor: pointer;
+        }
+        .speed {
+            display: inline-block;
+            position: relative;
+            color: grey;
+            text-decoration: none;
+            top: 100px;
+            left: 120px;
+
+        }
+        .speed:hover {
+            text-decoration: underline;
+            color: grey;
+            cursor: pointer;
+        }
+        .legal{
+            display: inline-block;
+            position: relative;
+            color: grey;
+            top: 100px;
+            left: 320px;
+            text-decoration: none;
+        }
+        .legal:hover{
+            color: grey;
+            text-decoration: underline;
+            cursor: pointer;
+
+        }
+        .only_on_netflix {
+            display: inline-block;
+            position: relative;
+            top: 70px;
+            color: grey;
+            text-decoration: none;
+            left: 750px;
+        }
+        .only_on_netflix:hover {
+            text-decoration: underline;
+            color: grey;
+            cursor: pointer;
+        }
+        .netflix_sa{
+            display: inline-block;
+            position: relative;
+            color: grey;
+            top: 120px;
+            right: 130px;
+        }
+        
+
+
+
+
