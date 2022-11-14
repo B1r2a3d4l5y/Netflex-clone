@@ -72,6 +72,7 @@ body {
     top: -660px;
     left: 570px;
     width: 500px;
+    height: 100px;
     color: #fff;
 
 }
@@ -81,10 +82,11 @@ body {
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 692px;
-    left: 1070px;
+    bottom: 760px;
+    left: 1050px;
     font-weight: bold; 
-    width: 200px;
+    width: 250px;
+    height: 99px;
     border: 1px solid red;
     
     
@@ -93,11 +95,12 @@ body {
 .button-icon {
     display: inline-block;
     position: relative;
-    bottom: 689px;
-    left: 1010px;
+    bottom: 760px;
+    left: 965px;
     color: white;
     font-size:  20px; 
 }
+
 .hr {
     display: inline-block;
     position: relative ;
@@ -429,8 +432,9 @@ body {
     display: inline-block;
         position: relative;
         box-sizing: border-box;
-        left: 50px;
-        width: 500px;
+        left: 40px;
+        width: 300px;
+        height: 100px;
         color: #fff;
 
 }
@@ -439,10 +443,11 @@ body {
         position: relative;
         color: #fff;
         background-color: red;
-        bottom: 32px;
-        left: 551px;
+        bottom: 99px;
+        left: 340px;
         font-weight: bold;
-        width: 200px;
+        width: 250px;
+        height: 99px;
         border: 1px solid red;
     
 
@@ -450,8 +455,8 @@ body {
 .bottom-button-icon {
     display: inline-block;
         position: relative;
-        bottom: 30px;
-        left:500px ;
+        bottom: 160px;
+        left: 510px ;
         color: white;
         font-size: 20px;
     }
