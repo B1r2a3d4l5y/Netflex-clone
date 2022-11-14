@@ -25,11 +25,12 @@
                 <h1 class="center-text">Unlimited movies , TV shows and more.</h1>
                 <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
                 <p class="readytowatch">Ready to watch? Enter your email to create or restart your membership</p>
-                <form class="emailform  col-lg-6 col-md-6 col-sm-12 col-xs-12" name="emailform" action="" method="get">
-                    <input type="email" class="email"  id="email" name="email" placeholder="Email adress">
-                    <span class="error_form" id="error"></span>
-                    <button type="submit" class="getstarted" id="getstarted" role="button" required  >Get Started</button>
+                <form class="emailform  col-lg-6 col-md-6 col-sm-12 col-xs-12" name="emailform" action="" method="post" onsubmit="return validate()">
+                    <input type="email" class="email"  id="email" name="email" placeholder="Email adress" required="Email is required">
+                    <button type="submit" class="getstarted" id="getstarted"  >Get Started</button>
+                    <span class="errormessage " id="errorMssage"></span>
                     <span class="button-icon"><i class="bi bi-chevron-compact-right"></i></span>
+
 
 
                 </form>
@@ -193,6 +194,7 @@
     </div>
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
   crossorigin="anonymous"></script>
+  <script src="js/validate.js"></script>
 <script src="js/click.js"></script>
 </body>
 </html>
