@@ -524,8 +524,8 @@ body {
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 40px;
-        left: 400px;
+        top: 45px;
+        left: 450px;
         text-align: center;
         justify-content: center;
         font-size: 13px;
@@ -566,11 +566,11 @@ body {
      .jobs {
         display: inline-block;
         position: relative;
-        top: 90px;
-        left: 100px;
+        top: 60px;
+        left: 266px;
         color: grey;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 12px;
         
 
      }
@@ -584,9 +584,9 @@ body {
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 80px;
-        left: 300px;
-        font-size: 13px;
+        top: 60px;
+        left: 470px;
+        font-size: 12px;
      }
       .redeem:hover {
         color: grey;
@@ -598,9 +598,9 @@ body {
         color: grey;
         text-decoration: none;
         top: 50px;
-        left: 750px;
+        left: 610px;
         white-space: nowrap;
-        font-size: 13px;
+        font-size: 12px;
         
     }
         .ways_to-watch_link:hover {
@@ -611,10 +611,10 @@ body {
         display: inline-block;
         position: relative;
         color: grey;
-        top: 120px;
+        top: 100px;
         text-decoration: none;
-        right: 100px;
-        font-size: 13px;
+        right: 190px;
+        font-size: 12px;
     }
     .terms:hover {
         color: grey;
@@ -627,9 +627,9 @@ body {
         position: relative;
         text-decoration: none;
         color: grey;
-        top: 120px;
-        left: 20px;
-        font-size: 13px;
+        top: 70px;
+        left: 250px;
+        font-size: 12px;
         
     }
     .privacy:hover{
@@ -639,11 +639,11 @@ body {
     .cookie {
         display: inline-block;
         position: relative;
-        top: 100px;
+        top: 70px;
         color: grey;
         text-decoration: none;
-        left: 450px;
-        font-size: 13px;
+        left: 460px;
+        font-size: 12px;
     }
     .cookie:hover{
         text-decoration: underline;
@@ -654,9 +654,9 @@ body {
         position: relative;
         color: grey;
         text-decoration: none;
-        top: 95px;
-        left: 600px;
-        font-size: 13px;
+        top: 60px;
+        left: 575px;
+        font-size: 12px;
         
     }
         .corparate_info:hover   {
@@ -670,7 +670,7 @@ body {
             top: 100px;
             color: grey;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 12px;
 
 
         }
@@ -684,9 +684,9 @@ body {
             position: relative;
             color: grey;
             text-decoration: none;
-            top: 100px;
-            left: 120px;
-            font-size: 13px;
+            top: 80px;
+            left: 180px;
+            font-size: 12px;
 
         }
         .speed:hover {
@@ -698,10 +698,10 @@ body {
             display: inline-block;
             position: relative;
             color: grey;
-            top: 100px;
-            left: 320px;
+            top: 80px;
+            left: 400px;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 12px;
         }
         .legal:hover{
             color: grey;
@@ -715,7 +715,8 @@ body {
             top: 70px;
             color: grey;
             text-decoration: none;
-            left: 750px;
+            left: 540px;
+            font-size: 12px;
             
         }
         .only_on_netflix:hover {
@@ -729,7 +730,7 @@ body {
             color: grey;
             top: 120px;
             right: 130px;
-            font-size: 13px;
+            font-size: 12px;
         
         }
         
