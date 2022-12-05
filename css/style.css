@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: black;
@@ -68,11 +69,10 @@ body {
 .email {
     display: inline-block;
     position: relative;
-    box-sizing: border-box;
-    top: -660px;
+    top: -680px;
     left: 570px;
-    width: 500px;
-    height: 100px;
+    width: 700px;
+    height: 90px;
     color: #fff;
 
 }
@@ -82,12 +82,12 @@ body {
     position: relative;
     color: #fff;
     background-color: red;
-    bottom: 760px;
-    left: 1050px;
+    bottom: 770px;
+    left: 1270px;
     font-weight: bold; 
-    width: 250px;
-    height: 99px;
-    border: 1px solid red;
+    width: 300px;
+    height: 90px;
+    border: none;
     
     
 
@@ -95,8 +95,8 @@ body {
 .button-icon {
     display: inline-block;
     position: relative;
-    bottom: 760px;
-    left: 965px;
+    bottom: 770px;
+    left: 1160px;
     color: white;
     font-size:  20px; 
 }
@@ -433,8 +433,8 @@ body {
         position: relative;
         box-sizing: border-box;
         left: 40px;
-        width: 300px;
-        height: 100px;
+        width: 700px;
+        height: 90px;
         color: #fff;
 
 }
@@ -443,24 +443,26 @@ body {
         position: relative;
         color: #fff;
         background-color: red;
-        bottom: 99px;
-        left: 340px;
+        bottom: 90px;
+        left: 740px;
         font-weight: bold;
-        width: 250px;
-        height: 99px;
-        border: 1px solid red;
+        width: 300px;
+        height: 90px;
+        border: none;
     
 
 }
 .bottom-button-icon {
     display: inline-block;
         position: relative;
-        bottom: 160px;
-        left: 510px ;
+        bottom: 150px;
+        left: 950px ;
         color: white;
         font-size: 20px;
     }
     .footer {
+        display: inline-block;
+        position: relative;
         width: 300px;
     }
     
@@ -470,6 +472,7 @@ body {
         position: relative;
         color: grey;
         margin: 5px;
+        
     }
     .tel-number {
         display: inline-block;
@@ -490,8 +493,9 @@ body {
         color: grey;
         text-decoration: none;
         top: 80px;
-        right: 190px;
+        right: 195px;
         white-space: nowrap;
+        font-size: 13px;
     }
     .faq_link:hover {
         color: grey;
@@ -504,10 +508,11 @@ body {
         color: grey;
         text-decoration: none;
         top: 40px;
-        left: 200px ;
+        left: 250px ;
         white-space: nowrap;
         text-align: center;
         justify-content: center;
+        font-size: 13px;
 
     }
     .help:hover{
@@ -523,6 +528,7 @@ body {
         left: 400px;
         text-align: center;
         justify-content: center;
+        font-size: 13px;
     }
      .account:hover {
         color: grey;
@@ -532,9 +538,10 @@ body {
         display: inline-block;
         position: relative;
         top: 30px;
-        left: 610px;
+        left: 620px;
         text-decoration: none;
         color: grey;
+        font-size: 13px;
 
      }
      .media:hover {
@@ -545,9 +552,10 @@ body {
         display: inline-block;
         position: relative;
         top: 80px;
-        right: 15px;
+        left: -190px;
         color: grey;
         text-decoration: none;
+        font-size: 13px;
    
 
      }
@@ -562,6 +570,9 @@ body {
         left: 100px;
         color: grey;
         text-decoration: none;
+        font-size: 13px;
+        
+
      }
      .jobs:hover{
         color: grey;
@@ -575,6 +586,7 @@ body {
         text-decoration: none;
         top: 80px;
         left: 300px;
+        font-size: 13px;
      }
       .redeem:hover {
         color: grey;
@@ -588,6 +600,7 @@ body {
         top: 50px;
         left: 750px;
         white-space: nowrap;
+        font-size: 13px;
         
     }
         .ways_to-watch_link:hover {
@@ -601,6 +614,7 @@ body {
         top: 120px;
         text-decoration: none;
         right: 100px;
+        font-size: 13px;
     }
     .terms:hover {
         color: grey;
@@ -615,6 +629,8 @@ body {
         color: grey;
         top: 120px;
         left: 20px;
+        font-size: 13px;
+        
     }
     .privacy:hover{
         text-decoration: underline;
@@ -627,6 +643,7 @@ body {
         color: grey;
         text-decoration: none;
         left: 450px;
+        font-size: 13px;
     }
     .cookie:hover{
         text-decoration: underline;
@@ -638,7 +655,9 @@ body {
         color: grey;
         text-decoration: none;
         top: 95px;
-        left:600px;
+        left: 600px;
+        font-size: 13px;
+        
     }
         .corparate_info:hover   {
             color: grey;
@@ -651,6 +670,9 @@ body {
             top: 100px;
             color: grey;
             text-decoration: none;
+            font-size: 13px;
+
+
         }
         .contact:hover {
             color: grey;
@@ -664,6 +686,7 @@ body {
             text-decoration: none;
             top: 100px;
             left: 120px;
+            font-size: 13px;
 
         }
         .speed:hover {
@@ -678,6 +701,7 @@ body {
             top: 100px;
             left: 320px;
             text-decoration: none;
+            font-size: 13px;
         }
         .legal:hover{
             color: grey;
@@ -692,6 +716,7 @@ body {
             color: grey;
             text-decoration: none;
             left: 750px;
+            
         }
         .only_on_netflix:hover {
             text-decoration: underline;
@@ -704,6 +729,8 @@ body {
             color: grey;
             top: 120px;
             right: 130px;
+            font-size: 13px;
+        
         }
         
 
