@@ -7,13 +7,15 @@ body {
     background-color: black;
 
 }
+
 .logo {
     display: inline-block;
     position: absolute;
     color: red;
-    font-size: 55px;
-    left: 50px;
+    font-size: 60px;
+    left: 60px;
     font-weight: bold;
+    
     
 }
 .logo:hover {
@@ -26,9 +28,10 @@ body {
     background-color: red ;
     border: none;
     border-radius: 10px; ;
-    right:  -500px;
+    left:  100px;
     width: 100px;
     height: 50px;
+    top: 120px;
 }
 .center-text {
     display: inline-block;
@@ -38,7 +41,7 @@ body {
     color: white;
     font-weight: bold;
     top: -700px;
-    right: -590px;
+    right: -600px;
     font-size: 70px ;
     width: 800px;
 
@@ -85,7 +88,7 @@ body {
     bottom: 770px;
     left: 1270px;
     font-weight: bold; 
-    width: 300px;
+    width: 290px;
     height: 90px;
     border: none;
     
@@ -96,7 +99,7 @@ body {
     display: inline-block;
     position: relative;
     bottom: 770px;
-    left: 1160px;
+    left: 1200px;
     color: white;
     font-size:  20px; 
 }
@@ -150,6 +153,7 @@ body {
     display: inline-block;
     position: relative;
     height: 100%;
+
 }
 .download {
     display: inline-block;
@@ -167,6 +171,7 @@ body {
     top: -140px;
     left: 200px;
     font-size: 25px;
+    width: 500px;
 
 
 }
@@ -207,6 +212,7 @@ body {
     color: white;
     font-size: 20px;
     color: #fff;
+    width: 500px;
 
 }
 .faq {
@@ -446,7 +452,7 @@ body {
         bottom: 90px;
         left: 740px;
         font-weight: bold;
-        width: 300px;
+        width: 290px;
         height: 90px;
         border: none;
     
