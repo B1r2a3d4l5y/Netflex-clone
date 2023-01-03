@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: black;
 
@@ -15,23 +16,27 @@ body {
     font-size: 60px;
     left: 60px;
     font-weight: bold;
-    
-    
+
+
 }
+
 .logo:hover {
     color: red;
 }
-.signin{
+
+.signin {
     display: inline-block;
     position: absolute;
     color: white;
-    background-color: red ;
+    background-color: red;
     border: none;
-    border-radius: 10px; ;
-    right:  200px;
+    border-radius: 10px;
+    ;
+    right: 200px;
     width: 100px;
     height: 50px;
 }
+
 .center-text {
     display: inline-block;
     position: relative;
@@ -41,23 +46,25 @@ body {
     font-weight: bold;
     top: -700px;
     right: -600px;
-    font-size: 70px ;
+    font-size: 70px;
     width: 800px;
 
 
 }
+
 .watchandcancel {
     display: inline-block;
     position: relative;
     color: white;
     top: -700px;
     left: 790px;
-    font-size:  30px; 
+    font-size: 30px;
     white-space: nowrap;
 
 
 
 }
+
 .readytowatch {
     display: inline-block;
     position: relative;
@@ -68,6 +75,7 @@ body {
     white-space: nowrap;
 
 }
+
 .email {
     display: inline-block;
     position: relative;
@@ -86,29 +94,31 @@ body {
     background-color: red;
     bottom: 770px;
     left: 1270px;
-    font-weight: bold; 
+    font-weight: bold;
     width: 290px;
     height: 90px;
     border: none;
-    
-    
+
+
 
 }
+
 .button-icon {
     display: inline-block;
     position: relative;
     bottom: 770px;
     left: 1200px;
     color: white;
-    font-size:  20px; 
+    font-size: 20px;
 }
 
 .hr {
     display: inline-block;
-    position: relative ;
+    position: relative;
     width: 9000%;
     border: 4px solid grey;
 }
+
 .enjoy {
     display: inline-block;
     position: relative;
@@ -120,14 +130,16 @@ body {
     left: 200px;
     white-space: nowrap;
 }
+
 .watch {
     display: inline-block;
     position: relative;
     color: white;
     font-size: 30px;
     width: 800px;
-    
+
 }
+
 .TV-img {
     display: inline-block;
     position: relative;
@@ -136,7 +148,8 @@ body {
 
 
 }
-.TV-video{
+
+.TV-video {
     display: inline-block;
     position: relative;
     top: -550px;
@@ -144,16 +157,19 @@ body {
     height: 255px;
     width: auto;
     text-align: center;
-    object-fit : scale-down ;
+    object-fit: scale-down;
     z-index: -10;
 
 }
+
 .download-img {
     display: inline-block;
     position: relative;
     height: 100%;
+    width: auto;
 
 }
+
 .download {
     display: inline-block;
     position: relative;
@@ -163,6 +179,7 @@ body {
     top: -150px;
     left: 200px;
 }
+
 .save {
     display: inline-block;
     position: relative;
@@ -174,6 +191,7 @@ body {
 
 
 }
+
 .watch {
     display: inline-block;
     position: relative;
@@ -183,6 +201,7 @@ body {
     text-align: center;
     justify-content: center;
 }
+
 .stream {
     display: block;
     position: relative;
@@ -193,6 +212,7 @@ body {
     text-align: center;
     justify-content: center;
 }
+
 .create_profile {
     display: inline-block;
     position: relative;
@@ -203,6 +223,7 @@ body {
     width: 500px;
     font-weight: bold;
 }
+
 .kids {
     display: inline-block;
     position: relative;
@@ -214,14 +235,16 @@ body {
     width: 500px;
 
 }
+
 .faq {
     display: inline-block;
     position: relative;
-    color:white;
+    color: white;
     white-space: nowrap;
     color: white;
 
 }
+
 .questionBtn1 {
     display: inline-block;
     position: relative;
@@ -234,9 +257,9 @@ body {
     border-color: grey;
     font-weight: bold;
     margin: 5px;
-    
-    
-    
+
+
+
 }
 
 .faq-button-icon {
@@ -245,8 +268,9 @@ body {
     left: 175px;
     color: white;
     font-size: 25px;
-    
+
 }
+
 .button-text1 {
     display: inline-block;
     position: relative;
@@ -261,29 +285,30 @@ body {
 
 .what {
     display: none;
-    opacity: 0 ;
+    opacity: 0;
     color: white;
     background-color: grey;
     border: 1px outset grey;
     outline-style: none;
-    border-style: grey ;
+    border-style: grey;
     width: 500px;
 
 
-    
 
-    
+
+
 }
+
 .questionBtn2 {
     display: inline-block;
-        position: relative;
-        border: 1px outset grey;
-        width: 500px;
-        background-color: grey;
-        color: #fff;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 3px;
+    position: relative;
+    border: 1px outset grey;
+    width: 500px;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 3px;
 
 }
 
@@ -293,7 +318,7 @@ body {
     left: 120px;
     color: white;
     font-size: 25px;
-    
+
 }
 
 
@@ -306,6 +331,7 @@ body {
     width: 500px;
     outline-style: none;
 }
+
 .questionBtn3 {
     display: inline-block;
     position: relative;
@@ -313,9 +339,10 @@ body {
     width: 500px;
     background-color: grey;
     color: #fff;
-    font-weight: bold ;
+    font-weight: bold;
     cursor: pointer;
 }
+
 .faq-button-icon-3 {
     display: inline-block;
     position: relative;
@@ -323,6 +350,7 @@ body {
     font-size: 25px;
     color: white;
 }
+
 .watch_anywhere {
     display: none;
     opacity: 0;
@@ -331,23 +359,25 @@ body {
     color: white;
     background-color: grey;
 }
+
 .questionBtn4 {
     display: inline-block;
-        position: relative;
-        border: 1px outset grey;
-        width: 500px;
-        background-color: grey;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 3px;
-        
+    position: relative;
+    border: 1px outset grey;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 3px;
+
 }
+
 .faq-button-icon-4 {
     display: inline-block;
     position: relative;
     color: white;
-    left: 170px ;
+    left: 170px;
     font-size: 25px;
 }
 
@@ -364,18 +394,20 @@ body {
     height: 100px;
     color: white;
 }
+
 .questionBtn5 {
     display: inline-block;
-        position: relative;
-        border: 1px outset grey;
-        width: 500px;
-        background-color: grey;
-        color: #fff;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 3px;
+    position: relative;
+    border: 1px outset grey;
+    width: 500px;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 3px;
 
 }
+
 .faq-button-icon-5 {
     display: inline-block;
     position: relative;
@@ -384,6 +416,7 @@ body {
     font-size: 25px;
 
 }
+
 .what_can_i_watch {
     display: none;
     position: relative;
@@ -394,9 +427,10 @@ body {
     width: 500px;
     justify-content: center;
     align-items: center;
-    
+
 }
-.questionBtn6{
+
+.questionBtn6 {
     display: inline-block;
     position: relative;
     border: 1px outset grey;
@@ -405,6 +439,7 @@ body {
     background-color: grey;
     width: 500px;
 }
+
 .faq-button-icon-6 {
     display: inline-block;
     position: relative;
@@ -412,6 +447,7 @@ body {
     left: 140px;
     font-size: 25px;
 }
+
 .good_for_kids {
     display: none;
     opacity: 0;
@@ -424,322 +460,361 @@ body {
 
 
 }
+
 .bottom-ready-to-watch {
     display: inline-block;
-        position: relative;
-        color: #fff;
-        font-size: 20px;
-        white-space: nowrap;
-        margin: 20px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 20px;
 
 }
+
 .bottom-email {
     display: inline-block;
-        position: relative;
-        box-sizing: border-box;
-        left: 40px;
-        width: 700px;
-        height: 90px;
-        color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    left: 40px;
+    width: 700px;
+    height: 90px;
+    color: #fff;
 
 }
+
 .botom-getstarted {
     display: inline-block;
-        position: relative;
-        color: #fff;
-        background-color: red;
-        bottom: 90px;
-        left: 740px;
-        font-weight: bold;
-        width: 290px;
-        height: 90px;
-        border: none;
-    
+    position: relative;
+    color: #fff;
+    background-color: red;
+    bottom: 90px;
+    left: 740px;
+    font-weight: bold;
+    width: 290px;
+    height: 90px;
+    border: none;
+
 
 }
+
 .bottom-button-icon {
     display: inline-block;
-        position: relative;
-        bottom: 150px;
-        left: 950px ;
-        color: white;
-        font-size: 20px;
-    }
-    .footer {
-        display: inline-block;
-        position: relative;
-        width: 300px;
-    }
-    
-    
-    .questions {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        margin: 5px;
-        
-    }
-    .tel-number {
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        color: grey;
-        margin: 5px;
-        white-space: nowrap;
-    }
-    .tel-number:hover  {
-        color: grey;
-        text-decoration: underline;
+    position: relative;
+    bottom: 150px;
+    left: 950px;
+    color: white;
+    font-size: 20px;
+}
 
-    }
-    .faq_link {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 80px;
-        right: 195px;
-        white-space: nowrap;
-        font-size: 13px;
-    }
-    .faq_link:hover {
-        color: grey;
-        text-decoration: underline;
-
-    }
-    .help {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 40px;
-        left: 250px ;
-        white-space: nowrap;
-        text-align: center;
-        justify-content: center;
-        font-size: 13px;
-
-    }
-    .help:hover{
-        color : grey;
-        text-decoration: underline;
-    }
-    .account{
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 45px;
-        left: 450px;
-        text-align: center;
-        justify-content: center;
-        font-size: 13px;
-    }
-     .account:hover {
-        color: grey;
-        text-decoration: underline;
-     }
-     .media {
-        display: inline-block;
-        position: relative;
-        top: 30px;
-        left: 620px;
-        text-decoration: none;
-        color: grey;
-        font-size: 13px;
-
-     }
-     .media:hover {
-        color: grey;
-        text-decoration: underline;
-     }
-     .invest {
-        display: inline-block;
-        position: relative;
-        top: 80px;
-        left: -190px;
-        color: grey;
-        text-decoration: none;
-        font-size: 13px;
-   
-
-     }
-     .invest:hover {
-        color: grey;
-        text-decoration: underline;
-     }
-     .jobs {
-        display: inline-block;
-        position: relative;
-        top: 60px;
-        left: 266px;
-        color: grey;
-        text-decoration: none;
-        font-size: 12px;
-        
-
-     }
-     .jobs:hover{
-        color: grey;
-        text-decoration: underline;
-        cursor: pointer;
-     }
-     .redeem {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 60px;
-        left: 470px;
-        font-size: 12px;
-     }
-      .redeem:hover {
-        color: grey;
-        text-decoration: underline;
-      }
-    .ways_to-watch_link {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 50px;
-        left: 610px;
-        white-space: nowrap;
-        font-size: 12px;
-        
-    }
-        .ways_to-watch_link:hover {
-            color: grey;
-            text-decoration: underline;
-        }
-    .terms {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        top: 100px;
-        text-decoration: none;
-        right: 190px;
-        font-size: 12px;
-    }
-    .terms:hover {
-        color: grey;
-        text-decoration: underline;
-
-    }
-    .privacy {
-
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        color: grey;
-        top: 70px;
-        left: 250px;
-        font-size: 12px;
-        
-    }
-    .privacy:hover{
-        text-decoration: underline;
-        color: grey;
-    }
-    .cookie {
-        display: inline-block;
-        position: relative;
-        top: 70px;
-        color: grey;
-        text-decoration: none;
-        left: 460px;
-        font-size: 12px;
-    }
-    .cookie:hover{
-        text-decoration: underline;
-        color: grey;
-    }
-    .corparate_info {
-        display: inline-block;
-        position: relative;
-        color: grey;
-        text-decoration: none;
-        top: 60px;
-        left: 575px;
-        font-size: 12px;
-        
-    }
-        .corparate_info:hover   {
-            color: grey;
-            text-decoration: underline;
-
-        }
-        .contact {
-            display: inline-block;
-            position: relative;
-            top: 100px;
-            color: grey;
-            text-decoration: none;
-            font-size: 12px;
+.footer {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+}
 
 
-        }
-        .contact:hover {
-            color: grey;
-            text-decoration:underline;
-            cursor: pointer;
-        }
-        .speed {
-            display: inline-block;
-            position: relative;
-            color: grey;
-            text-decoration: none;
-            top: 80px;
-            left: 180px;
-            font-size: 12px;
+.questions {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    margin: 5px;
 
-        }
-        .speed:hover {
-            text-decoration: underline;
-            color: grey;
-            cursor: pointer;
-        }
-        .legal{
-            display: inline-block;
-            position: relative;
-            color: grey;
-            top: 80px;
-            left: 400px;
-            text-decoration: none;
-            font-size: 12px;
-        }
-        .legal:hover{
-            color: grey;
-            text-decoration: underline;
-            cursor: pointer;
+}
 
-        }
-        .only_on_netflix {
-            display: inline-block;
-            position: relative;
-            top: 70px;
-            color: grey;
-            text-decoration: none;
-            left: 540px;
-            font-size: 12px;
-            
-        }
-        .only_on_netflix:hover {
-            text-decoration: underline;
-            color: grey;
-            cursor: pointer;
-        }
-        .netflix_sa{
-            display: inline-block;
-            position: absolute;
-            color: grey;
-            top: 250px;
-            left: 1px;
-            font-size: 12px;
-            white-space: nowrap;
-        
-        }
-        
+.tel-number {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: grey;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.tel-number:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.faq_link {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 80px;
+    right: 195px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.faq_link:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.help {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 40px;
+    left: 250px;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+
+}
+
+.help:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.account {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 45px;
+    left: 450px;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.account:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.media {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 620px;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+
+}
+
+.media:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.invest {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: -190px;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+
+
+}
+
+.invest:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.jobs {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 266px;
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+.jobs:hover {
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.redeem {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 60px;
+    left: 470px;
+    font-size: 12px;
+}
+
+.redeem:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.ways_to-watch_link {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 50px;
+    left: 610px;
+    white-space: nowrap;
+    font-size: 12px;
+
+}
+
+.ways_to-watch_link:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.terms {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    top: 100px;
+    text-decoration: none;
+    right: 190px;
+    font-size: 12px;
+}
+
+.terms:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.privacy {
+
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: grey;
+    top: 70px;
+    left: 250px;
+    font-size: 12px;
+
+}
+
+.privacy:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.cookie {
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    color: grey;
+    text-decoration: none;
+    left: 460px;
+    font-size: 12px;
+}
+
+.cookie:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.corparate_info {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 60px;
+    left: 575px;
+    font-size: 12px;
+
+}
+
+.corparate_info:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.contact {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+.contact:hover {
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.speed {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    top: 80px;
+    left: 180px;
+    font-size: 12px;
+
+}
+
+.speed:hover {
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+}
+
+.legal {
+    display: inline-block;
+    position: relative;
+    color: grey;
+    top: 80px;
+    left: 400px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.legal:hover {
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.only_on_netflix {
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    color: grey;
+    text-decoration: none;
+    left: 540px;
+    font-size: 12px;
+
+}
+
+.only_on_netflix:hover {
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+}
+
+.netflix_sa {
+    display: inline-block;
+    position: absolute;
+    color: grey;
+    top: 250px;
+    left: 1px;
+    font-size: 12px;
+    white-space: nowrap;
+
+}
 
 
 
