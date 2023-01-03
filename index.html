@@ -1,201 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-          <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
 
-        <title>Netflex home page</title>
+  <title>Netflex home page</title>
 </head>
+
 <body>
-    <div class="container-fluid ">
-        <div class="row" >
-          <!--first section-->
-            <div class="section1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <a class="logo navbar-brand">NETFLEX</a>
-                <button class="signin">Sign In</button>
-                <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
-                <h1 class="center-text">Unlimited movies , TV shows and more.</h1>
-                <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
-                <p class="readytowatch">Ready to watch? Enter your email to create or restart your membership</p>
-                <form class="emailform  col-lg-6 col-md-6 col-sm-12 col-xs-12" name="emailform" action="#" method="get" >
-                    <input type="email" class="email"  id="email" name="email" placeholder="Email adress" >
-                    <span class="errormessage " id="errorMessage" role="alert" aria-live="assertive"></span>
-                    <button type="submit" class="getstarted" id="getstarted"   >Get Started</button>
-                    
-                    <span class="button-icon"><i class="bi bi-chevron-compact-right"></i></span>
+  <div class="container-fluid ">
+    <div class="row">
+      <!--first section-->
+      <div class="section1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <a class="logo navbar-brand">NETFLEX</a>
+        <button class="signin">Sign In</button>
+        <img src="img/bg-img.jpg" class="bg-img img-responsive" alt="background-img">
+        <h1 class="center-text">Unlimited movies , TV shows and more.</h1>
+        <p class="watchandcancel">Watch anywhere. Cancel anytime</p>
+        <p class="readytowatch">Ready to watch? Enter your email to create or restart your membership</p>
+        <form class="emailform  col-lg-6 col-md-6 col-sm-12 col-xs-12" name="emailform" action="#" method="get">
+          <input type="email" class="email" id="email" name="email" placeholder="Email adress">
+          <button type="submit" class="getstarted" id="getstarted">Get Started</button>
+
+          <span class="button-icon"><i class="bi bi-chevron-compact-right"></i></span>
 
 
 
-                </form>
+        </form>
 
 
-              </div>
-              <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <!--section 2-->
-            <div class="section2 col-lg-6 col-md-6 col-sm-12 ">
-                <h1 class="enjoy ">Enjoy on your TV.</h1>
-                <p class="watch">Watch on your Smart TVs, Playstation, Xbox , Chromecast, Apple TV , Blu-ray players and more. </p>
-                <img src="img/tv.png" class="TV-img img-responsive">
-              <div class="embed-responsive embed-responsive-4by3">
-                <video class="TV-video embed-responsive-item"  autoplay muted controls loop id="video">
-                    <source src="assests/video-tv.m4v" type="video/mp4">
-                </video>
-              </div>
-              <hr class=" hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <!--section3-->
-              <div class="section3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="img/downlod.jpg" class="download-img img-responsive" alt="download-img">
-                <h1 class="download">Download your shows to watch offline</h1>
-                <p class="save">Save your favorites easily and always have something to watch.  </p>
-
-
-              </div>
-              <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <!--section 4-->
-              <div class="section4  col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="watch">Watch everywhere</h1>
-                <p class="stream">Stream unlimted movies and Tv shows on your phone , tablet, laptop and TV</p>
-              </div>
-              <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-              <div class="section5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="img/kids.png" class="kid-img img-responsive" alt="kids">
-                <h1 class="create_profile">Create profiles for kids. </h1>
-                <p class="kids">Send kids on adventures with their favorite characters in a  space made just for them free with your membership </p>
-              </div>
-              <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <!--Faq-->
-              
-              <div class="section_faq col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="faq">Frequently ASked Questions</h1>
-                <!--first button-->
-                  <button class="questionBtn1  " type="button" id="questionBtn1">What is Netflex?</li>
-                  <!--button icon for first button-->
-                    <span class="faq-button-icon"><i class=" icon-plus  bi bi-plus"></i></span>
-                  
-                  
-                  
-                  
-                  
-                  </button>
-                  <!--text for first button-->
-                  <div class="button-text1">
-                    <p class="what" id="what">Netflex is a streaming service that offers a wide variety of award-winning TV shows ,
-                      movies , anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you
-                      want
-                      whenever you want without a single commercial - all for one low monthly price. There's always something new to
-                      discover and new TV shows and movies are added every week! </p>
-                                       
-
-                  </div>
-                  
-
-                 
-
-                
-                
-                
-                <!--button number 2-->
-                <button class="questionBtn2" type="button"  id="questionBtn2"  >How much does Netflex cost?
-                  <!--icon for button number two-->
-                  <span class="faq-button-icon-2"><i class=" icon-plus-2  bi  bi-plus"></i></span>
-                </button>
-                <!--text for button number 2-->
-                  <div class="button-text-2">
-                    <p class="cost">Whatch Netflex on your smartphone, tablet, Smart TV, laptop or streaming device, all for a fixed
-                      monthly
-                      fee. Plans range from R49 to R199 a month. No extra costs , no contracts. </p>
-                  
-                  </div>
-                  <!--button number 3-->
-                  <button type="button" class="questionBtn3" id="questionBtn3" >Where can I watch?
-                    <!--button icon for button 3-->
-                    <span class="faq-button-icon-3"><i class="icon-plus-3 bi bi-plus"></i></span>
-                  </button>
-                  <!--text for button 3-->
-                  <div class="button-text-3">
-                    <p class="watch_anywhere" id="watch_anywhere">Watch anywhere, anytime. Sign in with  your Netflix account to watch instantly on the web at netflix.com from your personal computer or any internet-connected device that offers the Netflex app, including smart TVs, smartphones, tablets , streaming media players and game consoles . You can also download your favorite shows with iOS, Android or Windows10 app. Use downloads to watch while you are on the go without an internet connection. Take Netflix with you anywhere. </p>
-                  </div>
-                  <!--button 4-->
-                  <button type="button" class="questionBtn4">How do I cancel?
-                    <!--icon for button 4-->
-                    <span class="faq-button-icon-4"><i class="icon-plus-4 bi bi-plus"></i></span>
-
-                  </button>
-                  <div class="button-text-4">
-                    <p class="cancel" id="cancel">Netflix is flexible There are no pesky contracts and commitments. You can easily cancel your account online  in two clicks. There are no cancellation fees - start or stop your account anytime.</p>
-                  </div>
-                  <button type="button " class="questionBtn5" id="questionBtn5">What can I watch on Netflix
-                    <span class="faq-button-icon-5"><i class="icon-plus-5 bi bi-plus"></i></span>
-                  </button>
-                  <div class="button-text-5">
-                    <p class="what_can_i_watch" id="what_can_i_watch">Netflix has an extenisve libray of feature films , documentaries  , TV shows, animie, award-winning  Netflix orginals , and more. Watch as much as you want,  anytime you want. </p>
-                  </div>
-                  <button type="button" class="questionBtn6" >Is Netflix good for kids?
-                    <span class="faq-button-icon-6"><i class="icon-plus-6 bi bi-plus"></i></span>
-                  </button>
-                  <div class="button-text-6">
-                    <p class="good_for_kids" id="good_for_kids">The Netflix Kids experience is included in your memberships to give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with PIN-protected parental controls that let  you restrict the maturity rating of content that kids can watch and block the spefic titles you don't want kids to see.  </p>
-                  </div>
-                  <form class="bottom-email-form col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-                    <p class="bottom-ready-to-watch">Ready to watch? Enter your email to create or restart your membership<p>
-                    <input class="bottom-email" placeholder="Email address">
-                    <button type="submit" class="botom-getstarted" role="button">Get Started</button>
-                    <span class=" bottom-button-icon"><i class="bi bi-chevron-compact-right"></i></span>
-                  </form>
-
-
-
-           
-              
-              
-              
-
-                
-              </div>
-              <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <!--footer-->
-              <footer class="footer col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <!--footer menu-->
-
-                <ul class="footer_list nav  ">
-                <li>
-                  <p class="questions">Questions? Call</p>
-                </li>
-                <li><a class="tel-number" href="tel:+0801000723">0801-000-723</a></li>
-                <li><a class="faq_link" href="">FAQ</a></li>
-                <li><a class="help" href="">Help Center</a></li>
-                <li><a class="account" href="">Account</a></li>
-                <li><a class="media" href="">Media Center</a></li>
-                <li><a class="invest" href="">Investor Relations </a></li>
-                <li><a class="jobs">Jobs</a></li>
-                <li><a class="redeem" href="">Redeem Gift Cards</a></li>
-                <li><a class="ways_to-watch_link" href="">Ways to Watch</a></li>
-                <li><a class="terms" href="">Terms of Use </a></li>
-                <li><a class="privacy" href="">Privacy</a></li>
-                <li><a class="cookie" href="">Cookie preferances</a></li>
-                <li><a class="corparate_info" href="">Corporate Infomation</a></li>
-                <li><a class="contact" href="">Contact Us</a></li>
-                <li><a class="speed">Speed Test</a></li>
-                <li><a class="legal">Legal Notices </a></li>
-                <li><a class="only_on_netflix">Only on Netflix</a></li>
-                <li><p class="netflix_sa">Netflix South Africa</p></li>
-                </ul>
-              </footer>
-             
-            </div>
+      </div>
+      <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <!--section 2-->
+      <div class="section2 col-lg-6 col-md-6 col-sm-12 ">
+        <h1 class="enjoy ">Enjoy on your TV.</h1>
+        <p class="watch">Watch on your Smart TVs, Playstation, Xbox , Chromecast, Apple TV , Blu-ray players and more.
+        </p>
+        <img src="img/tv.png" class="TV-img img-responsive">
+        <div class="embed-responsive embed-responsive-4by3">
+          <video class="TV-video embed-responsive-item" autoplay muted controls loop id="video">
+            <source src="assests/video-tv.m4v" type="video/mp4">
+          </video>
         </div>
+        <hr class=" hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <!--section3-->
+        <div class="section3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <img src="img/downlod.jpg" class="download-img img-responsive" alt="download-img">
+          <h1 class="download">Download your shows to watch offline</h1>
+          <p class="save">Save your favorites easily and always have something to watch. </p>
+
+
+        </div>
+        <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <!--section 4-->
+        <div class="section4  col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h1 class="watch">Watch everywhere</h1>
+          <p class="stream">Stream unlimted movies and Tv shows on your phone , tablet, laptop and TV</p>
+        </div>
+        <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+        <div class="section5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <img src="img/kids.png" class="kid-img img-responsive" alt="kids">
+          <h1 class="create_profile">Create profiles for kids. </h1>
+          <p class="kids">Send kids on adventures with their favorite characters in a space made just for them free with
+            your membership </p>
+        </div>
+        <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <!--Faq-->
+
+        <div class="section_faq col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h1 class="faq">Frequently ASked Questions</h1>
+          <!--first button-->
+          <button class="questionBtn1  " type="button" id="questionBtn1">What is Netflex?</li>
+            <!--button icon for first button-->
+            <span class="faq-button-icon"><i class=" icon-plus  bi bi-plus"></i></span>
+
+
+
+
+
+          </button>
+          <!--text for first button-->
+          <div class="button-text1">
+            <p class="what" id="what">Netflex is a streaming service that offers a wide variety of award-winning TV
+              shows ,
+              movies , anime, documentaries, and more on thousands of internet-connected devices. You can watch as much
+              as you
+              want
+              whenever you want without a single commercial - all for one low monthly price. There's always something
+              new to
+              discover and new TV shows and movies are added every week! </p>
+
+
+          </div>
+
+
+
+
+
+
+
+          <!--button number 2-->
+          <button class="questionBtn2" type="button" id="questionBtn2">How much does Netflex cost?
+            <!--icon for button number two-->
+            <span class="faq-button-icon-2"><i class=" icon-plus-2  bi  bi-plus"></i></span>
+          </button>
+          <!--text for button number 2-->
+          <div class="button-text-2">
+            <p class="cost">Whatch Netflex on your smartphone, tablet, Smart TV, laptop or streaming device, all for a
+              fixed
+              monthly
+              fee. Plans range from R49 to R199 a month. No extra costs , no contracts. </p>
+
+          </div>
+          <!--button number 3-->
+          <button type="button" class="questionBtn3" id="questionBtn3">Where can I watch?
+            <!--button icon for button 3-->
+            <span class="faq-button-icon-3"><i class="icon-plus-3 bi bi-plus"></i></span>
+          </button>
+          <!--text for button 3-->
+          <div class="button-text-3">
+            <p class="watch_anywhere" id="watch_anywhere">Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal computer or any internet-connected device
+              that offers the Netflex app, including smart TVs, smartphones, tablets , streaming media players and game
+              consoles . You can also download your favorite shows with iOS, Android or Windows10 app. Use downloads to
+              watch while you are on the go without an internet connection. Take Netflix with you anywhere. </p>
+          </div>
+          <!--button 4-->
+          <button type="button" class="questionBtn4">How do I cancel?
+            <!--icon for button 4-->
+            <span class="faq-button-icon-4"><i class="icon-plus-4 bi bi-plus"></i></span>
+
+          </button>
+          <div class="button-text-4">
+            <p class="cancel" id="cancel">Netflix is flexible There are no pesky contracts and commitments. You can
+              easily cancel your account online in two clicks. There are no cancellation fees - start or stop your
+              account anytime.</p>
+          </div>
+          <button type="button " class="questionBtn5" id="questionBtn5">What can I watch on Netflix
+            <span class="faq-button-icon-5"><i class="icon-plus-5 bi bi-plus"></i></span>
+          </button>
+          <div class="button-text-5">
+            <p class="what_can_i_watch" id="what_can_i_watch">Netflix has an extenisve libray of feature films ,
+              documentaries , TV shows, animie, award-winning Netflix orginals , and more. Watch as much as you want,
+              anytime you want. </p>
+          </div>
+          <button type="button" class="questionBtn6">Is Netflix good for kids?
+            <span class="faq-button-icon-6"><i class="icon-plus-6 bi bi-plus"></i></span>
+          </button>
+          <div class="button-text-6">
+            <p class="good_for_kids" id="good_for_kids">The Netflix Kids experience is included in your memberships to
+              give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids
+              profiles come with PIN-protected parental controls that let you restrict the maturity rating of content
+              that kids can watch and block the spefic titles you don't want kids to see. </p>
+          </div>
+          <form class="bottom-email-form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <p class="bottom-ready-to-watch">Ready to watch? Enter your email to create or restart your membership
+            <p>
+              <input class="bottom-email" placeholder="Email address">
+              <button type="submit" class="botom-getstarted" role="button">Get Started</button>
+              <span class=" bottom-button-icon"><i class="bi bi-chevron-compact-right"></i></span>
+          </form>
+
+
+
+
+
+
+
+
+
+        </div>
+        <hr class="hr col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <!--footer-->
+        <footer class="footer col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <!--footer menu-->
+
+          <ul class="footer_list nav  ">
+            <li>
+              <p class="questions">Questions? Call</p>
+            </li>
+            <li><a class="tel-number" href="tel:+0801000723">0801-000-723</a></li>
+            <li><a class="faq_link" href="">FAQ</a></li>
+            <li><a class="help" href="">Help Center</a></li>
+            <li><a class="account" href="">Account</a></li>
+            <li><a class="media" href="">Media Center</a></li>
+            <li><a class="invest" href="">Investor Relations </a></li>
+            <li><a class="jobs">Jobs</a></li>
+            <li><a class="redeem" href="">Redeem Gift Cards</a></li>
+            <li><a class="ways_to-watch_link" href="">Ways to Watch</a></li>
+            <li><a class="terms" href="">Terms of Use </a></li>
+            <li><a class="privacy" href="">Privacy</a></li>
+            <li><a class="cookie" href="">Cookie preferances</a></li>
+            <li><a class="corparate_info" href="">Corporate Infomation</a></li>
+            <li><a class="contact" href="">Contact Us</a></li>
+            <li><a class="speed">Speed Test</a></li>
+            <li><a class="legal">Legal Notices </a></li>
+            <li><a class="only_on_netflix">Only on Netflix</a></li>
+            <li>
+              <p class="netflix_sa">Netflix South Africa</p>
+            </li>
+          </ul>
+        </footer>
+
+      </div>
     </div>
-<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
   <script src="js/validate.js"></script>
-<script src="js/click.js"></script>
+  <script src="js/click.js"></script>
 </body>
+
 </html>
