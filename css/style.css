@@ -6,16 +6,23 @@
 
 body {
     background-color: black;
-
+  
+}
+.bg-img {
+    display: block;
+    height: auto;
 }
 
+
 .logo {
-    display: inline-block;
-    position: absolute;
+    
+    position: relative;
     color: red;
     font-size: 60px;
     left: 60px;
+    top: 85px;
     font-weight: bold;
+  
 
 
 }
@@ -25,16 +32,18 @@ body {
 }
 
 .signin {
-    display: inline-block;
-    position: absolute;
+    
+    position: relative;
     color: white;
     background-color: red;
     border: none;
     border-radius: 10px;
-    ;
-    right: 200px;
+    left:  1650px;
     width: 100px;
     height: 50px;
+    margin: 0;
+    padding: 0;
+    top: 160px;
 }
 
 .center-text {
@@ -267,7 +276,7 @@ body {
     position: relative;
     left: 175px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -317,7 +326,7 @@ body {
     position: relative;
     left: 120px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -347,7 +356,7 @@ body {
     display: inline-block;
     position: relative;
     left: 160px;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
 }
 
@@ -378,7 +387,7 @@ body {
     position: relative;
     color: white;
     left: 170px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -413,7 +422,7 @@ body {
     position: relative;
     color: #fff;
     left: 130px;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -445,7 +454,7 @@ body {
     position: relative;
     color: white;
     left: 140px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .good_for_kids {
