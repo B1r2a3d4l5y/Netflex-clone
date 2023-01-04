@@ -16,7 +16,7 @@ $(document).ready(function(){
     // questionbutton 3
     $("#questionBtn3").on('click', function(){
         // change icon
-        $(".icon-plus-3").toggleClass("bi-x, bi-plus");
+        $(".icon-plus-3").toggleClass("bi-plus, bi-x");
         // toggle hidden text
         $("#watch_anywhere").animate({opacity:1}).toggle();
     });
