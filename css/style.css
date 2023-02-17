@@ -175,7 +175,11 @@ body {
     display: inline-block;
     position: relative;
     height: 100%;
-    width: auto;
+    width: 100%;
+    top: 120px;
+    left: 35px;
+
+    
 
 }
 
@@ -186,7 +190,7 @@ body {
     width: 700px;
     font-size: 50px;
     top: -150px;
-    left: 200px;
+    left: 500px;
 }
 
 .save {
@@ -194,7 +198,7 @@ body {
     position: relative;
     color: white;
     top: -140px;
-    left: 200px;
+    left: 500px;
     font-size: 25px;
     width: 500px;
 
