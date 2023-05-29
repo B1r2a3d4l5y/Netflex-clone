@@ -6,8 +6,9 @@
 
 body {
     background-color: black;
-  
+
 }
+
 .bg-img {
     display: block;
     height: auto;
@@ -15,14 +16,14 @@ body {
 
 
 .logo {
-    
+
     position: relative;
     color: red;
     font-size: 60px;
     left: 60px;
     top: 85px;
     font-weight: bold;
-  
+
 
 
 }
@@ -32,13 +33,13 @@ body {
 }
 
 .signin {
-    
+
     position: relative;
     color: white;
     background-color: red;
     border: none;
     border-radius: 10px;
-    left:  1650px;
+    left: 1650px;
     width: 100px;
     height: 50px;
     margin: 0;
@@ -115,7 +116,7 @@ body {
 .button-icon {
     display: inline-block;
     position: relative;
-    bottom: 770px;
+    bottom: 769px;
     left: 1200px;
     color: white;
     font-size: 20px;
@@ -179,7 +180,7 @@ body {
     top: 120px;
     left: 35px;
 
-    
+
 
 }
 
@@ -828,7 +829,3 @@ body {
     white-space: nowrap;
 
 }
-
-
-
-
