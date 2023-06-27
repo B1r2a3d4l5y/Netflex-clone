@@ -1,831 +1,898 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-body {
+ body {
+     background-color: black;
+
+ }
+
+ .bg-img {
+     display: block;
+     height: auto;
+ }
+
+
+ .logo {
+
+     position: relative;
+     color: red;
+     font-size: 60px;
+     left: 60px;
+     top: 85px;
+     font-weight: bold;
+
+
+
+ }
+
+ .logo:hover {
+     color: red;
+ }
+
+ .signin {
+
+     position: relative;
+     color: white;
+     background-color: red;
+     border: none;
+     border-radius: 10px;
+     left: 1650px;
+     width: 100px;
+     height: 50px;
+     margin: 0;
+     padding: 0;
+     top: 160px;
+ }
+
+ .center-text {
+     display: inline-block;
+     position: relative;
+     text-align: center;
+     justify-content: center;
+     color: white;
+     font-weight: bold;
+     top: -700px;
+     right: -600px;
+     font-size: 70px;
+     width: 800px;
+
+
+ }
+
+ .watchandcancel {
+     display: inline-block;
+     position: relative;
+     color: white;
+     top: -700px;
+     left: 790px;
+     font-size: 30px;
+     white-space: nowrap;
+
+
+
+ }
+
+ .readytowatch {
+     display: inline-block;
+     position: relative;
+     top: -685px;
+     left: 700px;
+     color: #fff;
+     font-size: 20px;
+     white-space: nowrap;
+
+ }
+
+ .email {
+     display: inline-block;
+     position: relative;
+     top: -680px;
+     left: 570px;
+     width: 100%;
+     height: 50px;
+     color: #fff;
+     background-color: black;
+
+ }
+
+ .getstarted {
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     background-color: red;
+     bottom: 720px;
+     left: 1100px;
+     font-weight: bold;
+     width: 200px;
+     height: 50px;
+     border: none;
+
+
+
+ }
+
+ .button-icon {
+     display: inline-block;
+     position: relative;
+     bottom: 720px;
+     left: 1050px;
+     color: white;
+     font-size: 20px;
+ }
+
+ .hr {
+     display: inline-block;
+     position: relative;
+     width: 9000%;
+     border: 4px solid grey;
+ }
+
+ .enjoy {
+     display: inline-block;
+     position: relative;
+     color: white;
+     font-size: 50px;
+     font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     left: 200px;
+     white-space: nowrap;
+ }
+
+ .watch_on {
+     display: inline-block;
+     position: relative;
+     color: white;
+     font-size: 30px;
+     width: 800px;
+     left: 100px;
+
+ }
+
+ .TV-img {
+     display: inline-block;
+     position: relative;
+     top: -190px;
+     left: 900px;
+
+
+ }
+
+ .TV-video {
+     display: inline-block;
+     position: relative;
+     top: -500px;
+     left: 990px;
+     height: 255px;
+     width: auto;
+     text-align: center;
+     object-fit: scale-down;
+     z-index: -10;
+
+ }
+
+ .download-img {
+     display: inline-block;
+     position: relative;
+     height: 100%;
+     width: 100%;
+     top: 120px;
+     left: 35px;
+
+
+
+ }
+
+ .download {
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     width: 700px;
+     font-size: 50px;
+     top: -150px;
+     left: 500px;
+ }
+
+ .save {
+     display: inline-block;
+     position: relative;
+     color: white;
+     top: -140px;
+     left: 500px;
+     font-size: 25px;
+     width: 500px;
+
+
+ }
+
+ .watch {
+     display: inline-block;
+     position: relative;
+     color: white;
+     font-size: 90px;
+     font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     width: 100%;
+     left: 720px;
+ }
+
+ .stream {
+     display: block;
+     position: relative;
+     color: #fff;
+     font-size: 20px;
+     left: 800px;
+     width: 300px;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .create_profile {
+     display: inline-block;
+     position: relative;
+     top: -250px;
+     left: 700px;
+     color: white;
+     font-size: 50px;
+     width: 500px;
+     font-weight: bold;
+ }
+
+ .kids {
+     display: inline-block;
+     position: relative;
+     top: -250px;
+     left: 700px;
+     color: white;
+     font-size: 20px;
+     color: #fff;
+     width: 500px;
+
+ }
+
+ .faq {
+     display: inline-block;
+     position: relative;
+     color: white;
+     white-space: nowrap;
+     color: white;
+
+ }
+
+ .questionBtn1 {
+     display: inline-block;
+     position: relative;
+     background-color: grey;
+     color: #fff;
+     width: 500px;
+     cursor: pointer;
+     border: 1px outset grey;
+     outline-style: none;
+     border-color: grey;
+     font-weight: bold;
+     margin: 5px;
+
+
+
+ }
+
+ .faq-button-icon {
+     display: inline-block;
+     position: relative;
+     left: 175px;
+     color: white;
+     font-size: 30px;
+
+ }
+
+ .button-text1 {
+     display: inline-block;
+     position: relative;
+
+ }
+
+
+
+
+
+
+
+ .what {
+     display: none;
+     opacity: 0;
+     color: white;
+     background-color: grey;
+     border: 1px outset grey;
+     outline-style: none;
+     border-style: grey;
+     width: 500px;
+
+
+
+
+
+ }
+
+ .questionBtn2 {
+     display: inline-block;
+     position: relative;
+     border: 1px outset grey;
+     width: 500px;
+     background-color: grey;
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+     margin: 3px;
+
+ }
+
+ .faq-button-icon-2 {
+     display: inline-block;
+     position: relative;
+     left: 120px;
+     color: white;
+     font-size: 30px;
+
+ }
+
+
+
+ .cost {
+     display: none;
+     border: 1px outset grey;
+     color: #fff;
+     background-color: grey;
+     width: 500px;
+     outline-style: none;
+ }
+
+ .questionBtn3 {
+     display: inline-block;
+     position: relative;
+     border: 1px outset grey;
+     width: 500px;
+     background-color: grey;
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .faq-button-icon-3 {
+     display: inline-block;
+     position: relative;
+     left: 160px;
+     font-size: 30px;
+     color: white;
+ }
+
+ .watch_anywhere {
+     display: none;
+     opacity: 0;
+     width: 500px;
+     border: 1px outset grey;
+     color: white;
+     background-color: grey;
+ }
+
+ .questionBtn4 {
+     display: inline-block;
+     position: relative;
+     border: 1px outset grey;
+     width: 500px;
+     background-color: grey;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     margin: 3px;
+
+ }
+
+ .faq-button-icon-4 {
+     display: inline-block;
+     position: relative;
+     color: white;
+     left: 170px;
+     font-size: 30px;
+ }
+
+
+
+
+ .cancel {
+     display: none;
+     position: relative;
+     opacity: 0;
+     border: 1px outset grey;
+     background-color: grey;
+     width: 500px;
+     height: 100px;
+     color: white;
+ }
+
+ .questionBtn5 {
+     display: inline-block;
+     position: relative;
+     border: 1px outset grey;
+     width: 500px;
+     background-color: grey;
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+     margin: 3px;
+
+ }
+
+ .faq-button-icon-5 {
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     left: 130px;
+     font-size: 30px;
+
+ }
+
+ .what_can_i_watch {
+     display: none;
+     position: relative;
+     opacity: 0;
+     color: white;
+     border: 1px outset grey;
+     background-color: grey;
+     width: 500px;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .questionBtn6 {
+     display: inline-block;
+     position: relative;
+     border: 1px outset grey;
+     font-weight: bold;
+     color: white;
+     background-color: grey;
+     width: 500px;
+ }
+
+ .faq-button-icon-6 {
+     display: inline-block;
+     position: relative;
+     color: white;
+     left: 140px;
+     font-size: 30px;
+ }
+
+ .good_for_kids {
+     display: none;
+     opacity: 0;
+     color: white;
+     border: 1px outset grey;
+     background-color: grey;
+     width: 500px;
+     margin: 5px;
+
+
+
+ }
+
+ .bottom-ready-to-watch {
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     font-size: 20px;
+     white-space: nowrap;
+     margin: 20px;
+     text-align: center;
+     align-items: center;
+     left: 500px;
+
+ }
+
+ .bottom-email {
+     display: inline-block;
+     position: relative;
+     box-sizing: border-box;
+     left: 500px;
+     width: 450px;
+     height: 70px;
+     color: #fff;
+     background-color: black;
+
+ }
+
+ .botom-getstarted {
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     background-color: red;
+     bottom: 70px;
+     left: 1000px;
+     text-align: center;
+     align-items: center;
+     font-weight: bold;
+     width: 200px;
+     height: 70px;
+     border: none;
+
+
+ }
+
+ .bottom-button-icon {
+     display: inline-block;
+     position: relative;
+     bottom: 67px;
+     left: 980px;
+     color: white;
+     font-size: 20px;
+ }
+
+ .footer {
+     display: inline-block;
+     position: relative;
+     width: 300px;
+ }
+
+
+ .questions {
+     display: inline-block;
+     position: relative;
+     color: grey;
+     margin: 5px;
+
+ }
+
+ .tel-number {
+     display: inline-block;
+     position: relative;
+     text-decoration: underline;
+     color: #ccc;
+     margin: 5px;
+     white-space: nowrap;
+ }
+
+ .tel-number:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+
+ }
+
+ .faq_link {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 70px;
+     right: 195px;
+     white-space: nowrap;
+     font-size: 13px;
+ }
+
+ .faq_link:hover {
+     color: #ccc;
+     text-decoration: underline;
+
+ }
+
+ .help {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 35px;
+     left: 250px;
+     white-space: nowrap;
+     text-align: center;
+     justify-content: center;
+     font-size: 13px;
+
+ }
+
+ .help:hover {
+     color: #ccc;
+     text-decoration: underline;
+ }
+
+ .account {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 30px;
+     left: 450px;
+     text-align: center;
+     justify-content: center;
+     font-size: 13px;
+ }
+
+ .account:hover {
+     color: #ccc;
+     text-decoration: underline;
+ }
+
+ .media {
+     display: inline-block;
+     position: relative;
+     top: 20px;
+     left: 620px;
+     text-decoration: underline;
+     color: #ccc;
+     font-size: 13px;
+
+ }
+
+ .media:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .invest {
+     display: inline-block;
+     position: relative;
+     top: 70px;
+     left: -190px;
+     color: #ccc;
+     text-decoration: underline;
+     font-size: 13px;
+
+
+ }
+
+ .invest:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .jobs {
+     display: inline-block;
+     position: relative;
+     top: 50px;
+     left: 260px;
+     color: #ccc;
+     text-decoration: underline;
+     font-size: 12px;
+
+
+ }
+
+ .jobs:hover {
+     color: grey;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .redeem {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 40px;
+     left: 470px;
+     font-size: 12px;
+ }
+ 
+
+ .redeem:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+ .buy_gifts {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     top: 30px;
+     text-decoration: underline;
+     left: 600px;
+     font-size: 12px;
+ }
+
+ .ways_to-watch_link {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 80px;
+     right: 200px;
+     white-space: nowrap;
+     font-size: 12px;
+
+ }
+
+ .ways_to-watch_link:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .terms {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     margin-top: 60px;
+     text-decoration: underline;
+     left: 250px;
+     font-size: 12px;
+ }
+
+ .terms:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+
+ }
+
+ .privacy {
+
+     display: inline-block;
+     position: relative;
+     text-decoration: underline;
+     color: #ccc;
+     top: 60px;
+     left: 450px;
+     font-size: 12px;
+
+ }
+
+ .privacy:hover {
+     text-decoration: underline;
+     color: #ccc;
+     cursor: pointer;
+ }
+
+ .cookie {
+     display: inline-block;
+     position: relative;
+     top: 50px;
+     color: #ccc;
+     text-decoration: underline;
+     left: 600px;
+     font-size: 12px;
+ }
+
+ .cookie:hover {
+     text-decoration: underline;
+     color: #ccc;
+ }
+
+ .corparate_info {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 30px;
+     left: 10px;
+     font-size: 12px;
+
+ }
+
+ .corparate_info:hover {
+     color: grey;
+     text-decoration: underline;
+
+ }
+
+ .contact {
+     display: inline-block;
+     position: relative;
+     top: 20px;
+     color: #ccc;
+     text-decoration: underline;
+     font-size: 12px;
+     left: 120px;
+
+
+ }
+
+ .contact:hover {
+     color: grey;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .speed {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     text-decoration: underline;
+     top: 25px;
+     left: 325px;
+     font-size: 12px;
+
+ }
+
+ .speed:hover {
+     text-decoration: underline;
+     color: #ccc;
+     cursor: pointer;
+ }
+
+ .legal {
+     display: inline-block;
+     position: relative;
+     color: #ccc;
+     bottom: -5px;
+     left: 700px;
+     text-decoration: underline;
+     font-size: 12px;
+ }
+
+ .legal:hover {
+     color: #ccc;
+     text-decoration: underline;
+     cursor: pointer;
+
+ }
+
+ .only_on_netflix {
+     display: inline-block;
+     position: relative;
+     top: 25px;
+     color: #ccc;
+     text-decoration: underline;
+     margin-left: -50px;
+     font-size: 12px;
+
+ }
+
+ .only_on_netflix:hover {
+     text-decoration: underline;
+     color: #ccc;
+     cursor: pointer;
+ }
+ .langauge_button {
+    display: inline-block;
+    position: relative;
+    height:2rem;
+    width: 2rem;
+    color: #fff;
+    top: 55px;
+    right: 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: black
+
+ }
+ select {
+    display: inline-block;
+    position: relative;
     background-color: black;
-
-}
-
-.bg-img {
-    display: block;
-    height: auto;
-}
-
-
-.logo {
-
-    position: relative;
-    color: red;
-    font-size: 60px;
-    left: 60px;
-    top: 85px;
-    font-weight: bold;
-
-
-
-}
-
-.logo:hover {
-    color: red;
-}
-
-.signin {
-
-    position: relative;
-    color: white;
-    background-color: red;
-    border: none;
-    border-radius: 10px;
-    left: 1650px;
-    width: 100px;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-    top: 160px;
-}
-
-.center-text {
-    display: inline-block;
-    position: relative;
+    color: #fff;
+    width: 120px;
+    overflow: hidden;
+    appearance: none;
     text-align: center;
     justify-content: center;
-    color: white;
-    font-weight: bold;
-    top: -700px;
-    right: -600px;
-    font-size: 70px;
-    width: 800px;
-
-
-}
-
-.watchandcancel {
+ }
+ .globe {
     display: inline-block;
     position: relative;
-    color: white;
-    top: -700px;
-    left: 790px;
-    font-size: 30px;
-    white-space: nowrap;
-
-
-
-}
-
-.readytowatch {
+    height: 1rem;
+    height: 1rem;
+    top: -25px;
+    left: -30px;
+ }
+ .carret-down {
     display: inline-block;
     position: relative;
-    top: -685px;
-    left: 700px;
-    color: #fff;
-    font-size: 20px;
-    white-space: nowrap;
-
-}
-
-.email {
-    display: inline-block;
-    position: relative;
-    top: -680px;
-    left: 570px;
-    width: 700px;
-    height: 90px;
-    color: #fff;
-
-}
-
-.getstarted {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    background-color: red;
-    bottom: 770px;
-    left: 1270px;
-    font-weight: bold;
-    width: 290px;
-    height: 90px;
-    border: none;
-
-
-
-}
-
-.button-icon {
-    display: inline-block;
-    position: relative;
-    bottom: 769px;
-    left: 1200px;
-    color: white;
-    font-size: 20px;
-}
-
-.hr {
-    display: inline-block;
-    position: relative;
-    width: 9000%;
-    border: 4px solid grey;
-}
-
-.enjoy {
-    display: inline-block;
-    position: relative;
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    left: 200px;
-    white-space: nowrap;
-}
-
-.watch {
-    display: inline-block;
-    position: relative;
-    color: white;
-    font-size: 30px;
-    width: 800px;
-
-}
-
-.TV-img {
-    display: inline-block;
-    position: relative;
-    top: -190px;
-    left: 900px;
-
-
-}
-
-.TV-video {
-    display: inline-block;
-    position: relative;
-    top: -550px;
-    left: 990px;
-    height: 255px;
-    width: auto;
-    text-align: center;
-    object-fit: scale-down;
-    z-index: -10;
-
-}
-
-.download-img {
-    display: inline-block;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    top: 120px;
-    left: 35px;
-
-
-
-}
-
-.download {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    width: 700px;
-    font-size: 50px;
-    top: -150px;
-    left: 500px;
-}
-
-.save {
-    display: inline-block;
-    position: relative;
-    color: white;
-    top: -140px;
-    left: 500px;
-    font-size: 25px;
-    width: 500px;
-
-
-}
-
-.watch {
-    display: inline-block;
-    position: relative;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-
-.stream {
-    display: block;
-    position: relative;
-    color: #fff;
-    font-size: 20px;
-    left: 250px;
-    width: 300px;
-    text-align: center;
-    justify-content: center;
-}
-
-.create_profile {
-    display: inline-block;
-    position: relative;
-    top: -250px;
-    left: 700px;
-    color: white;
-    font-size: 50px;
-    width: 500px;
-    font-weight: bold;
-}
-
-.kids {
-    display: inline-block;
-    position: relative;
-    top: -250px;
-    left: 700px;
-    color: white;
-    font-size: 20px;
-    color: #fff;
-    width: 500px;
-
-}
-
-.faq {
-    display: inline-block;
-    position: relative;
-    color: white;
-    white-space: nowrap;
-    color: white;
-
-}
-
-.questionBtn1 {
-    display: inline-block;
-    position: relative;
-    background-color: grey;
-    color: #fff;
-    width: 500px;
-    cursor: pointer;
-    border: 1px outset grey;
-    outline-style: none;
-    border-color: grey;
-    font-weight: bold;
-    margin: 5px;
-
-
-
-}
-
-.faq-button-icon {
-    display: inline-block;
-    position: relative;
-    left: 175px;
-    color: white;
-    font-size: 30px;
-
-}
-
-.button-text1 {
-    display: inline-block;
-    position: relative;
-
-}
-
-
-
-
-
-
-
-.what {
-    display: none;
-    opacity: 0;
-    color: white;
-    background-color: grey;
-    border: 1px outset grey;
-    outline-style: none;
-    border-style: grey;
-    width: 500px;
-
-
-
-
-
-}
-
-.questionBtn2 {
-    display: inline-block;
-    position: relative;
-    border: 1px outset grey;
-    width: 500px;
-    background-color: grey;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 3px;
-
-}
-
-.faq-button-icon-2 {
-    display: inline-block;
-    position: relative;
-    left: 120px;
-    color: white;
-    font-size: 30px;
-
-}
-
-
-
-.cost {
-    display: none;
-    border: 1px outset grey;
-    color: #fff;
-    background-color: grey;
-    width: 500px;
-    outline-style: none;
-}
-
-.questionBtn3 {
-    display: inline-block;
-    position: relative;
-    border: 1px outset grey;
-    width: 500px;
-    background-color: grey;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.faq-button-icon-3 {
-    display: inline-block;
-    position: relative;
-    left: 160px;
-    font-size: 30px;
-    color: white;
-}
-
-.watch_anywhere {
-    display: none;
-    opacity: 0;
-    width: 500px;
-    border: 1px outset grey;
-    color: white;
-    background-color: grey;
-}
-
-.questionBtn4 {
-    display: inline-block;
-    position: relative;
-    border: 1px outset grey;
-    width: 500px;
-    background-color: grey;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 3px;
-
-}
-
-.faq-button-icon-4 {
-    display: inline-block;
-    position: relative;
-    color: white;
-    left: 170px;
-    font-size: 30px;
-}
-
-
-
-
-.cancel {
-    display: none;
-    position: relative;
-    opacity: 0;
-    border: 1px outset grey;
-    background-color: grey;
-    width: 500px;
-    height: 100px;
-    color: white;
-}
-
-.questionBtn5 {
-    display: inline-block;
-    position: relative;
-    border: 1px outset grey;
-    width: 500px;
-    background-color: grey;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 3px;
-
-}
-
-.faq-button-icon-5 {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    left: 130px;
-    font-size: 30px;
-
-}
-
-.what_can_i_watch {
-    display: none;
-    position: relative;
-    opacity: 0;
-    color: white;
-    border: 1px outset grey;
-    background-color: grey;
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.questionBtn6 {
-    display: inline-block;
-    position: relative;
-    border: 1px outset grey;
-    font-weight: bold;
-    color: white;
-    background-color: grey;
-    width: 500px;
-}
-
-.faq-button-icon-6 {
-    display: inline-block;
-    position: relative;
-    color: white;
-    left: 140px;
-    font-size: 30px;
-}
-
-.good_for_kids {
-    display: none;
-    opacity: 0;
-    color: white;
-    border: 1px outset grey;
-    background-color: grey;
-    width: 500px;
-    margin: 5px;
-
-
-
-}
-
-.bottom-ready-to-watch {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    font-size: 20px;
-    white-space: nowrap;
-    margin: 20px;
-
-}
-
-.bottom-email {
-    display: inline-block;
-    position: relative;
-    box-sizing: border-box;
-    left: 40px;
-    width: 700px;
-    height: 90px;
-    color: #fff;
-
-}
-
-.botom-getstarted {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    background-color: red;
-    bottom: 90px;
-    left: 740px;
-    font-weight: bold;
-    width: 290px;
-    height: 90px;
-    border: none;
-
-
-}
-
-.bottom-button-icon {
-    display: inline-block;
-    position: relative;
-    bottom: 150px;
-    left: 950px;
-    color: white;
-    font-size: 20px;
-}
-
-.footer {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-}
-
-
-.questions {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    margin: 5px;
-
-}
-
-.tel-number {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    color: grey;
-    margin: 5px;
-    white-space: nowrap;
-}
-
-.tel-number:hover {
-    color: grey;
-    text-decoration: underline;
-
-}
-
-.faq_link {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 80px;
-    right: 195px;
-    white-space: nowrap;
-    font-size: 13px;
-}
-
-.faq_link:hover {
-    color: grey;
-    text-decoration: underline;
-
-}
-
-.help {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 40px;
-    left: 250px;
-    white-space: nowrap;
-    text-align: center;
-    justify-content: center;
-    font-size: 13px;
-
-}
-
-.help:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.account {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 45px;
-    left: 450px;
-    text-align: center;
-    justify-content: center;
-    font-size: 13px;
-}
-
-.account:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.media {
-    display: inline-block;
-    position: relative;
-    top: 30px;
-    left: 620px;
-    text-decoration: none;
-    color: grey;
-    font-size: 13px;
-
-}
-
-.media:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.invest {
-    display: inline-block;
-    position: relative;
-    top: 80px;
-    left: -190px;
-    color: grey;
-    text-decoration: none;
-    font-size: 13px;
-
-
-}
-
-.invest:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.jobs {
-    display: inline-block;
-    position: relative;
-    top: 60px;
-    left: 266px;
-    color: grey;
-    text-decoration: none;
-    font-size: 12px;
-
-
-}
-
-.jobs:hover {
-    color: grey;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.redeem {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 60px;
-    left: 470px;
-    font-size: 12px;
-}
-
-.redeem:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.ways_to-watch_link {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 50px;
-    left: 610px;
-    white-space: nowrap;
-    font-size: 12px;
-
-}
-
-.ways_to-watch_link:hover {
-    color: grey;
-    text-decoration: underline;
-}
-
-.terms {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    top: 100px;
-    text-decoration: none;
-    right: 190px;
-    font-size: 12px;
-}
-
-.terms:hover {
-    color: grey;
-    text-decoration: underline;
-
-}
-
-.privacy {
-
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    color: grey;
-    top: 70px;
-    left: 250px;
-    font-size: 12px;
-
-}
-
-.privacy:hover {
-    text-decoration: underline;
-    color: grey;
-}
-
-.cookie {
-    display: inline-block;
-    position: relative;
-    top: 70px;
-    color: grey;
-    text-decoration: none;
-    left: 460px;
-    font-size: 12px;
-}
-
-.cookie:hover {
-    text-decoration: underline;
-    color: grey;
-}
-
-.corparate_info {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 60px;
-    left: 575px;
-    font-size: 12px;
-
-}
-
-.corparate_info:hover {
-    color: grey;
-    text-decoration: underline;
-
-}
-
-.contact {
-    display: inline-block;
-    position: relative;
-    top: 100px;
-    color: grey;
-    text-decoration: none;
-    font-size: 12px;
-
-
-}
-
-.contact:hover {
-    color: grey;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.speed {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    text-decoration: none;
-    top: 80px;
-    left: 180px;
-    font-size: 12px;
-
-}
-
-.speed:hover {
-    text-decoration: underline;
-    color: grey;
-    cursor: pointer;
-}
-
-.legal {
-    display: inline-block;
-    position: relative;
-    color: grey;
-    top: 80px;
-    left: 400px;
-    text-decoration: none;
-    font-size: 12px;
-}
-
-.legal:hover {
-    color: grey;
-    text-decoration: underline;
-    cursor: pointer;
-
-}
-
-.only_on_netflix {
-    display: inline-block;
-    position: relative;
-    top: 70px;
-    color: grey;
-    text-decoration: none;
-    left: 540px;
-    font-size: 12px;
-
-}
-
-.only_on_netflix:hover {
-    text-decoration: underline;
-    color: grey;
-    cursor: pointer;
-}
-
-.netflix_sa {
-    display: inline-block;
-    position: absolute;
-    color: grey;
-    top: 250px;
-    left: 1px;
-    font-size: 12px;
-    white-space: nowrap;
-
-}
+    bottom: 26px;
+    left: 30px;
+
+
+ }
+ .netflix_sa {
+     display: inline-block;
+     position: absolute;
+     color: #ccc;
+     top: 270px;
+     left: 1px;
+     font-size: 12px;
+     white-space: nowrap;
+
+ }
