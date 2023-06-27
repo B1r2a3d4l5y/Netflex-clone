@@ -95,6 +95,8 @@
      height: 50px;
      color: #fff;
      background-color: black;
+     font-size: 30px;
+     font-weight: bold;
 
  }
 
@@ -499,8 +501,10 @@
      left: 500px;
      width: 450px;
      height: 70px;
-     color: #fff;
+     color: white;
+     font-size: 30px;
      background-color: black;
+     font-weight: bold;
 
  }
 
