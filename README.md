@@ -6,6 +6,10 @@ What langauges  I used to build this project
 HTML CSS JS 
 Libires used 
 jQuery
+what I learned doing this project 
+A lot of CSS as well as UI and UX desgin. I also learnt HTML videos 
+Struggles 
+I had to do a lot of redos fir this project because 
 Bootstrap
 
 How to access my project 
