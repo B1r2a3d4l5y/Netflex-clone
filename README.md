@@ -11,3 +11,4 @@ Bootstrap
 How to access my project 
 1 You can download this project from my Github repo link
 2 You can also fork this project.
+what I learned building this project I learned a lot css building this project as well as bootstrap.  I aslo learnt Jquery for this project as well as desgin skills and UI desgin.
