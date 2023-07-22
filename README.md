@@ -9,8 +9,8 @@ jQuery
 what I learned doing this project 
 A lot of CSS as well as UI and UX desgin. I also learnt HTML videos 
 Struggles 
-I had to do a lot of redos fir this project because 
-Bootstrap
+I had to do a lot of redos for this project because 
+the CSS did not want align on the page ran into with jquery as I was learning it at the time.
 
 How to access my project 
 1 You can download this project from my Github repo link
