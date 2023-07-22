@@ -10,7 +10,7 @@ what I learned doing this project
 A lot of CSS as well as UI and UX desgin. I also learnt HTML videos 
 Struggles 
 I had to do a lot of redos fir this project because 
-Bootstrap
+the css did not want to line up on the page also ran into some jquery errors while I was learning it.
 
 How to access my project 
 1 You can download this project from my Github repo link
