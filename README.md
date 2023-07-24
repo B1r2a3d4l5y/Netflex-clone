@@ -7,7 +7,7 @@ HTML CSS JS
 Libires used 
 jQuery
 what I learned doing this project 
-A lot of CSS as well as UI and UX desgin. I also learnt HTML videos 
+A lot of CSS as well as UI and UX desgin. I also learnt HTML videos as well as responsive desgin for videos.
 Struggles 
 I had to do a lot of redos for this project because 
 the CSS did not want align on the page ran into with jquery as I was learning it at the time.
